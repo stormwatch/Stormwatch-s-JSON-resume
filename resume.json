@@ -1,130 +1,182 @@
 {
-  "basics": {
-    "name": "Ezequiel Birman",
-    "label": "Programmer",
-    "picture": "",
-    "email": "ebirman77@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+    "basics": {
+        "name": "Ezequiel Birman",
+        "label": "Programmer",
+        "picture": "",
+        "email": "ebirman77@gmail.com",
+        "phone": "+549 11 36 38 83 12",
+        "website": "",
+        "summary": "0.999999999…× Engineer",
+        "location": {
+            "address": "Pinzón 461",
+            "postalCode": "C1161ACI",
+            "city": "Buenos Aires",
+            "countryCode": "AR"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "EzequielBirman",
+                "url": "https://linkedin.com/EzequielBirman"
+            },
+            {
+                "network": "GitHub",
+                "username": "stormwatch",
+                "url": "https://github.com/stormwatch"
+            }
+        ]
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
-      },
-      {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
-      }
-    ]
-  },
-  "work": [
-    {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
+    "work": [
+        {
+            "company": "Self-employed",
+            "position": "Manager",
+            "website": "",
+            "startDate": "2010-01-01",
+            "summary": "Tech support",
+            "highlights": [
+                "Networking",
+                "Server administration",
+                "Technical consultant"
+            ]
+        },
+        {
+            "company": "Fundación Música AntiquaNova",
+            "position": "Assistant",
+            "website": "https://fundacionmusicaantiquanova.org",
+            "startDate": "2013-12-01",
+            "summary": "AntiquaNova Music Foundation was created to encourage and promote classical and contemporary music in Argentina in various fields: creation, performance, training and documentation as well as to promote cultural exchange with other countries.",
+            "highlights": [
+                "web design",
+                "music copying, typesetting and digital edition",
+                "concert program notes and brochure edition",
+                "live sound and lighting",
+                "communications and mailing"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "UTN",
+            "area": "Information Technology",
+            "studyType": "Licenciate degree",
+            "startDate": "2010-04-01"
+        },
+        {
+            "institution": "UNLP",
+            "area": "Music composition",
+            "studyType": "Licenciate degree",
+            "startDate": "2001-04-01",
+            "endDate": "2005-12-01"
+        },
+        {
+            "institution": "ORT",
+            "area": "Information Technology",
+            "studyType": "Technicature",
+            "startDate": "1990-04-01",
+            "endDate": "1995-12-12"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Beginner",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ]
+        },
+        {
+            "name": "RDBMS",
+            "level": "Beginner",
+            "keywords": [
+                "PostgreSQL",
+                "MySQL"
+            ]
+        },
+        {
+            "name": "Other programming languages",
+            "level": "Beginner",
+            "keywords": [
+                "Common Lisp",
+                "Scheme",
+                "Python",
+                "C"
+            ]
+        },
+        {
+            "name": "Version Control",
+            "level": "Beginner",
+            "keywords": [
+                "Git",
+                "Bzr"
+            ]
+        },
+        {
+            "name": "Dependency management",
+            "level": "Beginner",
+            "keywords": [
+                "npm",
+                "yarn",
+                "Gulp",
+                "Grunt",
+                "Autotools"
+            ]
+        },
+        {
+            "name": "Linux Systems Administration",
+            "level": "Intermediate",
+            "keywords": [
+                "scripting",
+                "configuration",
+                "deployment"
+            ]
+        },
+        {
+            "name": "Networking",
+            "level": "Intermediate",
+            "keywords": [
+                "firewalling",
+                "traffic monitoring",
+                "MikroTik",
+                "RouterOS"
+            ]
+        },
+        {
+            "name": "Text and music typesetting",
+            "level": "Intermediate",
+            "keywords": [
+                "LaTeX",
+                "Lilypond",
+                "Org Mode",
+                "Pandoc"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "C2, proficient"
+        },
+        {
+            "language": "German",
+            "fluency": "B1, intermediate"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Music",
+            "keywords": [
+                "Composition",
+                "Analysis"
+            ]
+        }
+    ],
+    "meta": {
+        "theme": "elegant"
     }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ]
-    },
-    {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ]
 }
