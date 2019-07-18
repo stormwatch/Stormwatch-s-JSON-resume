@@ -1,0 +1,3 @@
+#+TITLE: My Résumé
+
+My résumé in JSON and its HTML render in compliance with the [[https://jsonresume.org/][JSON Resume initiative]] [[https://github.com/jsonresume/resume-schema][schema]].

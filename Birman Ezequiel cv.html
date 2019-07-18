@@ -1,0 +1,887 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+        <title>Ezequiel Birman</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
+        <style>
+            /* Utils */
+            /*----- Colors -----*/
+            /*----- Fonts -----*/
+            /*----- Dimensions and sizes -----*/
+            /* Base */
+            @font-face {
+                font-family: 'Josefin Sans';
+                font-style: normal;
+                font-weight: 300;
+                src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype');
+            }
+            @font-face {
+                font-family: 'Josefin Sans';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format('truetype');
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 300;
+                src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: italic;
+                font-weight: 300;
+                src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: italic;
+                font-weight: 400;
+                src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: italic;
+                font-weight: 700;
+                src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+            }
+            
+            body {
+                font-family: "Lato", Helvetica, Arial, sans-serif;
+                font-weight: 400;
+                background: #393e46;
+                /* background: #f8f8f8; */
+                /* margin: 50px 0 100px; */
+                margin: 0;
+                letter-spacing: .3px;
+                color: #39424B;
+            }
+            
+            h1, h2, h3, h4, h5, h6 {
+                text-transform: uppercase;
+                margin: 0;
+            }
+            
+            h1 {
+                font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+                font-weight: 700;
+                font-size: 40px;
+                letter-spacing: 1px; }
+            
+            h2 {
+                font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+                font-weight: 300;
+                font-size: 16px;
+                letter-spacing: .5px; }
+            
+            h3 {
+                font-family: "Lato", Helvetica, Arial, sans-serif;
+                font-weight: 300;
+                font-size: 14px;
+                letter-spacing: .4px;
+                padding-top: 4px;
+                padding-left: 2px;
+                padding-right: 2px;
+            }
+            
+            h3.bold {
+                font-weight: 700; }
+            
+            h4 {
+                font-family: "Lato", Helvetica, Arial, sans-serif;
+                font-weight: 300;
+                font-size: 12px;
+            }
+            
+            h4.bold {
+                font-weight: 700; }
+            
+            h5 {
+                font-family: "Lato", Helvetica, Arial, sans-serif;
+                font-weight: 300;
+                font-size: 11px; }
+            h5.italic {
+                font-style: italic; }
+            
+            h6 {
+                font-family: "Lato", Helvetica, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 11px; }
+            
+            a {
+                color: inherit;
+                text-decoration: inherit;
+            }
+            
+            a:hover, a:hover > i.fa-external-link, .info-tag-container a:hover .fa.fa-external-link {
+                color: #2895F1;
+            }
+            
+            a .fa-external-link {
+                font-size: 8px;
+                margin-left: 2px;
+                vertical-align: text-top;
+                color: #999;
+            }
+            
+            p, li {
+                font-size: 13px;
+                font-weight: 200;
+                letter-spacing: .4px;
+            }
+            
+            blockquote {
+                font-size: 11px;
+                font-family: "Lato", Helvetica, Arial, sans-serif;
+                font-weight: 400;
+                font-style: italic;
+                margin: 10px 25px; }
+            
+            em {
+                color: #999;
+            }
+            
+            ul {
+                margin: 10px 0 0;
+                -webkit-padding-start: 25px;
+            }
+            
+            ul li {
+                padding-left: 10px;
+            }
+            
+            ul.minimal {
+                list-style: none;
+                padding: 0;
+            }
+            
+            ul.minimal li {
+                margin-bottom: 3px;
+                padding-left: 0;
+            }
+            
+            ul.two-column {
+                -webkit-column-count: 2;
+                -webkit-column-gap: 28px;
+                -moz-column-count: 2;
+                column-count: 2;
+                -moz-column-gap: 28px;
+                column-gap: 28px;
+            }
+            
+            ul.two-column li {
+                padding-left: 0;
+                padding-bottom: 5px;
+            }
+            
+            @page {
+                size: A4;
+            }
+            
+            .container {
+                padding-top: 20px;
+            }
+            
+            .keyline {
+                width: 45px;
+                /* margin: 8px 0 10px; */
+                margin: 4px 0 10px;
+                border-top: 1px solid #FF5701;
+            }
+            
+            .pull-left {
+                float: left;
+            }
+            
+            .pull-right {
+                float: right;
+            }
+            
+            .display-block {
+                display: block;
+            }
+            
+            .display-inline {
+                display: inline;
+            }
+            
+            .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            /*
+            .profile-header {
+                width: auto;
+                max-width:  300px;
+                margin-right: 50px;
+            }
+            */
+            
+            /*
+            .profile-pic {
+                width: auto;
+                max-width: 800px;
+                margin-right: auto;
+                /* margin-top: -5px; */
+                /* margin-right: 18px; *//*
+            }
+            */
+            
+            .profile-pic img {
+                height: 150px;
+                width: 120px;
+                border-radius: 10%;
+                padding: 2px;
+                border: 2px solid #FF5701;
+                object-fit: scale-down;
+                background: white;
+                float: right;
+            }
+            
+            .summary {
+                margin: 5px 0 5px; }
+            
+            /* Layouts */
+            .page {
+                background: #222831;
+                color: #eeeeee;
+                /* width: 612px; */
+                min-height: 792px;
+                display: block;
+                margin: 0 auto;
+                border-top: 10px solid #FF5701;
+                /* padding: 36px 22px 30px 34px; */
+                padding: 50px; /* 50px calc(50px + 10%);*/
+                box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+            }
+            
+            .page:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            .left-column, .profile-header {
+                float: left;
+                /* width: 160px; */
+                width: 300px;
+                /* margin-right: 20px; */
+                margin-right: 50px;
+                word-wrap: break-word;
+            }
+            
+            .right-column, .profile-pic {
+                width: auto;
+                overflow: hidden;
+                max-width: 850px;
+                /* margin-right: 50px; */
+                margin: 0 auto;
+            }
+            
+            .item {
+                /* margin-bottom: 15px; */
+                margin-top: 20px;
+                padding-top: 20px;
+                border-top: 1px solid #393e46;
+            }
+            
+            .item:first-child, .title + .item {
+                margin-top: 0;
+                padding-top: 0;
+                border-top: none;
+            }
+            
+            .title {
+                background-color: #393e46;
+            }
+            
+            .title > i {
+                float: left;
+                padding-top: 4px;
+                padding-left: 4px;
+                padding-right: 4px;
+            }
+            
+            .right-column > .container > .title {
+                margin-bottom: 15px;
+            }
+            
+            .gpa {
+                border: 1px solid white;
+                border-radius: 35%;
+                padding: 2px;
+                margin-left: 5px;
+            }
+            
+            @media only screen and (max-width: 800px) {
+                .page {
+                    padding: 35px;
+                }
+            
+                .left-column, .right-column {
+                    width: 100%;
+                    margin: 0;
+                }
+            
+                .skills-container > section > ul > li
+                /*,.languages-container > ul > li */{
+                    display: inline;
+                }
+            
+                .skills-container > section > ul > li > h6
+                /*,.languages-container > ul > li > h6 */{
+                    padding-right: 10px;
+                    display: inline;
+                }
+            
+                .info-tag-container .info-text {
+                    font-size: 14px !important;
+                }
+            
+                h3 {
+                    font-size: 16px !important;
+                }
+            
+                h4 {
+                    font-size: 14px !important;
+                }
+            
+                h6 {
+                    font-size: 12px !important;
+                }
+            
+                p, li {
+                    font-size: 14px;
+                }
+            
+                .item {
+                    margin-top: 10px;
+                    padding-top: 10px;
+                }
+            }
+            
+            @media print {
+                body {
+                    margin: 0;
+                    background: white;
+                    color: #000;
+                }
+            
+                main {
+                    background: white !important;
+                    color: black !important;
+                }
+            
+                @page {
+                    border-top: 2px solid white;
+                }
+            
+                .page {
+                    color: #000;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 35px 0 35px; /* 35px  35px; */
+                    box-shadow: none;
+                }
+            
+                .title {
+                    background-color: #393e46;
+                    color: white
+                }
+            
+                .keyline {
+                    width: 45px;
+                    /* margin: 8px 0 10px; */
+                    margin: 4px 0 10px;
+                    border-top: 2px solid #FF5701;
+                }
+            
+                .page .resume-header,
+                .page .resume-content {
+                    padding: 0 35px 0 35px;
+                }
+            
+                .container > section {
+                    page-break-inside: avoid;
+                }
+            
+                .left-column {
+                    width: 250px;
+                    margin-right: 35px;
+                }
+            
+                .left-column .container {
+                    page-break-inside: avoid;
+                }
+            
+                .fa-external-link {
+                    display: none;
+                }
+            
+                .gpa {
+                    border: 1px solid #393e46;
+                    margin-left: 10px;
+                }
+            }
+            
+            /* Components */
+            .info-tag-container {
+                margin-bottom: 5px;
+            }
+            
+            .info-tag-container .fa {
+                font-size: 14px;
+                width: 12px;
+                margin-right: 5px;
+                text-align: center;
+                vertical-align: middle;
+            }
+            
+            .info-tag-container .fa.fa-map-marker {
+                font-size: 16px;
+            }
+            
+            .info-tag-container .fa.fa-mobile {
+                font-size: 18px;
+            }
+            
+            .info-tag-container .fa.fa-envelope-o {
+                font-size: 12px;
+            }
+            
+            .info-tag-container .fa.fa-desktop {
+                font-size: 11px;
+            }
+            
+            .info-tag-container .fa.fa-external-link {
+                width: auto;
+                font-size: 8px;
+                margin-left: 2px;
+                vertical-align: text-top;
+                color: #999;
+            }
+            
+            .info-tag-container .info-text {
+                font-size: 11px;
+                display: inline-block;
+                vertical-align: middle;
+                /* width: 139px; */
+            }
+            
+            .references-container .fa {
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <main id="resume" class="page">
+            <header class="resume-header clearfix">
+                <div class="profile-header">
+                     <h1 class="display-block">Ezequiel Birman</h1>
+
+                     <h2 class="display-block">Programmer</h2>
+
+                </div>
+                <div class="profile-pic">
+                    <img src="./face.jpg" alt="profile-pic">
+                </div>
+            </header>
+            <div class="resume-content">
+                <aside class="left-column">
+                    <div class="container about-container">
+                        <div class="title">
+                             <h3>About</h3>
+
+                            <div class="keyline"></div>
+                        </div>
+                        <div class="info-tag-container"> <i class="fa fa-map-marker"></i>
+
+                             <h6 class="info-text">Pinzón 461<br/>Buenos Aires C1161ACI</h6>
+
+                        </div>
+                        <div class="info-tag-container"> <i class="fa fa-envelope"></i>
+
+                             <h6 class="info-text">ebirman77@gmail.com</h6>
+
+                        </div>
+                        <div class="info-tag-container"> <i class="fa fa-mobile-alt"></i>
+
+                             <h6 class="info-text">+549 11 36 38 83 12</h6>
+
+                        </div>
+                        <div class="info-tag-container"> <i class="fa fa-linkedin"></i>
+
+                             <h6 class="info-text">
+					                                     <a href="https://linkedin.com/EzequielBirman" target="_blank">
+					                                         EzequielBirman <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+
+                        </div>
+                        <div class="info-tag-container"> <i class="fa fa-github"></i>
+
+                             <h6 class="info-text">
+					                                     <a href="https://github.com/stormwatch" target="_blank">
+					                                         stormwatch <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+
+                        </div>
+                    </div>
+                    <div class="skills-container">
+                        <section class="container">
+                            <div class="title">
+                                 <h3>Web Development</h3>
+
+                                <div class="keyline"></div>
+                            </div>
+                             <h4 class="bold">Beginner</h4>
+
+                            <ul class="minimal">
+                                <li>
+                                    <h6>HTML</h6>
+                                </li>
+                                <li>
+                                    <h6>CSS</h6>
+                                </li>
+                                <li>
+                                    <h6>Javascript</h6>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="container">
+                            <div class="title">
+                                 <h3>RDBMS</h3>
+
+                                <div class="keyline"></div>
+                            </div>
+                             <h4 class="bold">Beginner</h4>
+
+                            <ul class="minimal">
+                                <li>
+                                    <h6>PostgreSQL</h6>
+                                </li>
+                                <li>
+                                    <h6>MySQL</h6>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="container">
+                            <div class="title">
+                                 <h3>Other programming languages</h3>
+
+                                <div class="keyline"></div>
+                            </div>
+                             <h4 class="bold">Beginner</h4>
+
+                            <ul class="minimal">
+                                <li>
+                                    <h6>Common Lisp</h6>
+                                </li>
+                                <li>
+                                    <h6>Scheme</h6>
+                                </li>
+                                <li>
+                                    <h6>Python</h6>
+                                </li>
+                                <li>
+                                    <h6>C</h6>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="container">
+                            <div class="title">
+                                 <h3>Version Control</h3>
+
+                                <div class="keyline"></div>
+                            </div>
+                             <h4 class="bold">Beginner</h4>
+
+                            <ul class="minimal">
+                                <li>
+                                    <h6>Git</h6>
+                                </li>
+                                <li>
+                                    <h6>Bzr</h6>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="container">
+                            <div class="title">
+                                 <h3>Dependency management</h3>
+
+                                <div class="keyline"></div>
+                            </div>
+                             <h4 class="bold">Beginner</h4>
+
+                            <ul class="minimal">
+                                <li>
+                                    <h6>npm</h6>
+                                </li>
+                                <li>
+                                    <h6>yarn</h6>
+                                </li>
+                                <li>
+                                    <h6>Gulp</h6>
+                                </li>
+                                <li>
+                                    <h6>Grunt</h6>
+                                </li>
+                                <li>
+                                    <h6>Autotools</h6>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="container">
+                            <div class="title">
+                                 <h3>Linux Systems Administration</h3>
+
+                                <div class="keyline"></div>
+                            </div>
+                             <h4 class="bold">Intermediate</h4>
+
+                            <ul class="minimal">
+                                <li>
+                                    <h6>scripting</h6>
+                                </li>
+                                <li>
+                                    <h6>configuration</h6>
+                                </li>
+                                <li>
+                                    <h6>deployment</h6>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="container">
+                            <div class="title">
+                                 <h3>Networking</h3>
+
+                                <div class="keyline"></div>
+                            </div>
+                             <h4 class="bold">Intermediate</h4>
+
+                            <ul class="minimal">
+                                <li>
+                                    <h6>firewalling</h6>
+                                </li>
+                                <li>
+                                    <h6>traffic monitoring</h6>
+                                </li>
+                                <li>
+                                    <h6>MikroTik</h6>
+                                </li>
+                                <li>
+                                    <h6>RouterOS</h6>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="container">
+                            <div class="title">
+                                 <h3>Text and music typesetting</h3>
+
+                                <div class="keyline"></div>
+                            </div>
+                             <h4 class="bold">Intermediate</h4>
+
+                            <ul class="minimal">
+                                <li>
+                                    <h6>LaTeX</h6>
+                                </li>
+                                <li>
+                                    <h6>Lilypond</h6>
+                                </li>
+                                <li>
+                                    <h6>Org Mode</h6>
+                                </li>
+                                <li>
+                                    <h6>Pandoc</h6>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="container languages-container">
+                        <div class="title">
+                             <h3>Languages</h3>
+
+                            <div class="keyline"></div>
+                        </div>
+                        <ul class="minimal">
+                            <li>
+                                 <h6>Spanish <em class="pull-right ">(Native speaker)</em></h6>
+
+                            </li>
+                            <li>
+                                 <h6>English <em class="pull-right ">(C2, proficient)</em></h6>
+
+                            </li>
+                            <li>
+                                 <h6>German <em class="pull-right ">(B1, intermediate)</em></h6>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container interests-container">
+                        <div class="title">
+                             <h3>Interests</h3>
+
+                            <div class="keyline"></div>
+                        </div>
+                        <section class="item">
+                             <h4 class="bold">Music</h4>
+
+                            <ul class="minimal">
+                                <li>Composition</li>
+                                <li>Analysis</li>
+                            </ul>
+                        </section>
+                    </div>
+                </aside>
+                <div class="right-column">
+                    <div class="container summary-container">
+                        <div class="title"> <i class="fa fas fa-file-alt"></i>
+
+                             <h3>Summary</h3>
+
+                            <div class="keyline"></div>
+                        </div>
+                        <p class="summary">I know how to Google and read the fine manual. Motivated, passionate,
+                            creative 0.999999999…× Engineer.</p>
+                    </div>
+                    <div class="container work-container">
+                        <div class="title"> <i class="fa fas fa-user-tie"></i>
+
+                             <h3>Experience</h3>
+
+                            <div class="keyline"></div>
+                        </div>
+                        <section class="item">
+                            <div class="section-header clearfix">
+                                 <h3 class="bold pull-left">
+					                        <a href="https://fundacionmusicaantiquanova.org" target="_blank">
+					                            Fundación Música AntiquaNova <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+
+                                 <h5 class="italic pull-right">
+					                            <span class="startDate">11/2013</span>
+					                            <span class="endDate"> - Present</span>
+					                </h5>
+
+                            </div>
+                             <h4>Assistant</h4>
+
+                            <p class="summary">AntiquaNova Music Foundation was created to encourage and promote classical
+                                and contemporary music in Argentina in various fields: creation, performance,
+                                training and documentation as well as to promote cultural exchange with
+                                other countries.</p>
+                            <ul>
+                                <li>web design</li>
+                                <li>music copying, typesetting and digital edition</li>
+                                <li>concert program notes and brochure edition</li>
+                                <li>live sound and lighting</li>
+                                <li>communications and mailing</li>
+                            </ul>
+                        </section>
+                        <section class="item">
+                            <div class="section-header clearfix">
+                                 <h3 class="bold pull-left">
+					                        Self-employed
+					                </h3>
+
+                                 <h5 class="italic pull-right">
+					                            <span class="startDate">12/2009</span>
+					                            <span class="endDate"> - Present</span>
+					                </h5>
+
+                            </div>
+                             <h4>Manager</h4>
+
+                            <p class="summary">Tech support</p>
+                            <ul>
+                                <li>Networking</li>
+                                <li>Server administration</li>
+                                <li>Technical consultant</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="container education-container">
+                        <div class="title"> <i class="fa fas fa-user-graduate"></i>
+
+                             <h3>Education</h3>
+
+                            <div class="keyline"></div>
+                        </div>
+                        <section class="item">
+                            <div class="section-header clearfix">
+                                 <h3 class="bold pull-left">
+					                        UTN
+					                </h3>
+
+                                 <h5 class="italic pull-right">
+					                            <span class="startDate">03/2010</span>
+					                            <span class="endDate"> - Present</span>
+					                </h5>
+
+                            </div>
+                             <h4 class="display-inline">Licenciate degree Information Technology</h4>
+
+                        </section>
+                        <section class="item">
+                            <div class="section-header clearfix">
+                                 <h3 class="bold pull-left">
+					                        UNLP
+					                </h3>
+
+                                 <h5 class="italic pull-right">
+					                            <span class="startDate">03/2001</span>
+					                            <span class="endDate"> - 11/2005</span>
+					                </h5>
+
+                            </div>
+                             <h4 class="display-inline">Licenciate degree Music composition</h4>
+
+                        </section>
+                        <section class="item">
+                            <div class="section-header clearfix">
+                                 <h3 class="bold pull-left">
+					                        ORT
+					                </h3>
+
+                                 <h5 class="italic pull-right">
+					                            <span class="startDate">03/1990</span>
+					                            <span class="endDate"> - 12/1995</span>
+					                </h5>
+
+                            </div>
+                             <h4 class="display-inline">Technicature Information Technology</h4>
+
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+
+</html>
