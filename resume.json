@@ -2,11 +2,10 @@
     "basics": {
         "name": "Ezequiel Birman",
         "label": "Programmer",
-        "picture": "",
+        "picture": "http://www.gravatar.com/avatar/6c3d41bdb3dcffabd1c7d10bec950fbc.jpg?s=100",
         "email": "ebirman77@gmail.com",
         "phone": "+549 11 36 38 83 12",
-        "website": "",
-        "summary": "0.999999999…× Engineer",
+        "summary": "Looking forward to a job in IT after some time. I know how to Google and read the fine manual. Motivated, passionate, creative 0.999999999…× Engineer.",
         "location": {
             "address": "Pinzón 461",
             "postalCode": "C1161ACI",
@@ -30,7 +29,6 @@
         {
             "company": "Self-employed",
             "position": "Manager",
-            "website": "",
             "startDate": "2010-01-01",
             "summary": "Tech support",
             "highlights": [
