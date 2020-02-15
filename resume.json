@@ -5,7 +5,7 @@
         "picture": "./face.jpg",
         "email": "ebirman77@gmail.com",
         "phone": "+549 11 36 38 83 12",
-        "summary": "I know how to Google and read the fine manual. Motivated, passionate, creative 0.999999999…× Engineer.",
+        "summary": "I know how to Google and read the fine manual. 0.999999999…× Engineer.",
         "location": {
             "address": "Pinzón 461",
             "postalCode": "C1161ACI",
@@ -16,7 +16,7 @@
             {
                 "network": "LinkedIn",
                 "username": "EzequielBirman",
-                "url": "https://linkedin.com/EzequielBirman"
+                "url": "https://linkedin.com/in/EzequielBirman"
             },
             {
                 "network": "GitHub",
