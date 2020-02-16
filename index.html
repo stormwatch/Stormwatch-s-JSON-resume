@@ -1,887 +1,817 @@
 <!doctype html>
 <html>
-    
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-        <title>Ezequiel Birman</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-        crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
-        <style>
-            /* Utils */
-            /*----- Colors -----*/
-            /*----- Fonts -----*/
-            /*----- Dimensions and sizes -----*/
-            /* Base */
-            @font-face {
-                font-family: 'Josefin Sans';
-                font-style: normal;
-                font-weight: 300;
-                src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype');
-            }
-            @font-face {
-                font-family: 'Josefin Sans';
-                font-style: normal;
-                font-weight: 700;
-                src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format('truetype');
-            }
-            @font-face {
-                font-family: 'Lato';
-                font-style: normal;
-                font-weight: 300;
-                src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
-            }
-            @font-face {
-                font-family: 'Lato';
-                font-style: normal;
-                font-weight: 400;
-                src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
-            }
-            @font-face {
-                font-family: 'Lato';
-                font-style: normal;
-                font-weight: 700;
-                src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
-            }
-            @font-face {
-                font-family: 'Lato';
-                font-style: italic;
-                font-weight: 300;
-                src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
-            }
-            @font-face {
-                font-family: 'Lato';
-                font-style: italic;
-                font-weight: 400;
-                src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
-            }
-            @font-face {
-                font-family: 'Lato';
-                font-style: italic;
-                font-weight: 700;
-                src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
-            }
-            
-            body {
-                font-family: "Lato", Helvetica, Arial, sans-serif;
-                font-weight: 400;
-                background: #393e46;
-                /* background: #f8f8f8; */
-                /* margin: 50px 0 100px; */
-                margin: 0;
-                letter-spacing: .3px;
-                color: #39424B;
-            }
-            
-            h1, h2, h3, h4, h5, h6 {
-                text-transform: uppercase;
-                margin: 0;
-            }
-            
-            h1 {
-                font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
-                font-weight: 700;
-                font-size: 40px;
-                letter-spacing: 1px; }
-            
-            h2 {
-                font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
-                font-weight: 300;
-                font-size: 16px;
-                letter-spacing: .5px; }
-            
-            h3 {
-                font-family: "Lato", Helvetica, Arial, sans-serif;
-                font-weight: 300;
-                font-size: 14px;
-                letter-spacing: .4px;
-                padding-top: 4px;
-                padding-left: 2px;
-                padding-right: 2px;
-            }
-            
-            h3.bold {
-                font-weight: 700; }
-            
-            h4 {
-                font-family: "Lato", Helvetica, Arial, sans-serif;
-                font-weight: 300;
-                font-size: 12px;
-            }
-            
-            h4.bold {
-                font-weight: 700; }
-            
-            h5 {
-                font-family: "Lato", Helvetica, Arial, sans-serif;
-                font-weight: 300;
-                font-size: 11px; }
-            h5.italic {
-                font-style: italic; }
-            
-            h6 {
-                font-family: "Lato", Helvetica, Arial, sans-serif;
-                font-weight: 400;
-                font-size: 11px; }
-            
-            a {
-                color: inherit;
-                text-decoration: inherit;
-            }
-            
-            a:hover, a:hover > i.fa-external-link, .info-tag-container a:hover .fa.fa-external-link {
-                color: #2895F1;
-            }
-            
-            a .fa-external-link {
-                font-size: 8px;
-                margin-left: 2px;
-                vertical-align: text-top;
-                color: #999;
-            }
-            
-            p, li {
-                font-size: 13px;
-                font-weight: 200;
-                letter-spacing: .4px;
-            }
-            
-            blockquote {
-                font-size: 11px;
-                font-family: "Lato", Helvetica, Arial, sans-serif;
-                font-weight: 400;
-                font-style: italic;
-                margin: 10px 25px; }
-            
-            em {
-                color: #999;
-            }
-            
-            ul {
-                margin: 10px 0 0;
-                -webkit-padding-start: 25px;
-            }
-            
-            ul li {
-                padding-left: 10px;
-            }
-            
-            ul.minimal {
-                list-style: none;
-                padding: 0;
-            }
-            
-            ul.minimal li {
-                margin-bottom: 3px;
-                padding-left: 0;
-            }
-            
-            ul.two-column {
-                -webkit-column-count: 2;
-                -webkit-column-gap: 28px;
-                -moz-column-count: 2;
-                column-count: 2;
-                -moz-column-gap: 28px;
-                column-gap: 28px;
-            }
-            
-            ul.two-column li {
-                padding-left: 0;
-                padding-bottom: 5px;
-            }
-            
-            @page {
-                size: A4;
-            }
-            
-            .container {
-                padding-top: 20px;
-            }
-            
-            .keyline {
-                width: 45px;
-                /* margin: 8px 0 10px; */
-                margin: 4px 0 10px;
-                border-top: 1px solid #FF5701;
-            }
-            
-            .pull-left {
-                float: left;
-            }
-            
-            .pull-right {
-                float: right;
-            }
-            
-            .display-block {
-                display: block;
-            }
-            
-            .display-inline {
-                display: inline;
-            }
-            
-            .clearfix:after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-            
-            /*
-            .profile-header {
-                width: auto;
-                max-width:  300px;
-                margin-right: 50px;
-            }
-            */
-            
-            /*
-            .profile-pic {
-                width: auto;
-                max-width: 800px;
-                margin-right: auto;
-                /* margin-top: -5px; */
-                /* margin-right: 18px; *//*
-            }
-            */
-            
-            .profile-pic img {
-                height: 150px;
-                width: 120px;
-                border-radius: 10%;
-                padding: 2px;
-                border: 2px solid #FF5701;
-                object-fit: scale-down;
-                background: white;
-                float: right;
-            }
-            
-            .summary {
-                margin: 5px 0 5px; }
-            
-            /* Layouts */
-            .page {
-                background: #222831;
-                color: #eeeeee;
-                /* width: 612px; */
-                min-height: 792px;
-                display: block;
-                margin: 0 auto;
-                border-top: 10px solid #FF5701;
-                /* padding: 36px 22px 30px 34px; */
-                padding: 50px; /* 50px calc(50px + 10%);*/
-                box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
-            }
-            
-            .page:after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-            
-            .left-column, .profile-header {
-                float: left;
-                /* width: 160px; */
-                width: 300px;
-                /* margin-right: 20px; */
-                margin-right: 50px;
-                word-wrap: break-word;
-            }
-            
-            .right-column, .profile-pic {
-                width: auto;
-                overflow: hidden;
-                max-width: 850px;
-                /* margin-right: 50px; */
-                margin: 0 auto;
-            }
-            
-            .item {
-                /* margin-bottom: 15px; */
-                margin-top: 20px;
-                padding-top: 20px;
-                border-top: 1px solid #393e46;
-            }
-            
-            .item:first-child, .title + .item {
-                margin-top: 0;
-                padding-top: 0;
-                border-top: none;
-            }
-            
-            .title {
-                background-color: #393e46;
-            }
-            
-            .title > i {
-                float: left;
-                padding-top: 4px;
-                padding-left: 4px;
-                padding-right: 4px;
-            }
-            
-            .right-column > .container > .title {
-                margin-bottom: 15px;
-            }
-            
-            .gpa {
-                border: 1px solid white;
-                border-radius: 35%;
-                padding: 2px;
-                margin-left: 5px;
-            }
-            
-            @media only screen and (max-width: 800px) {
-                .page {
-                    padding: 35px;
-                }
-            
-                .left-column, .right-column {
-                    width: 100%;
-                    margin: 0;
-                }
-            
-                .skills-container > section > ul > li
-                /*,.languages-container > ul > li */{
-                    display: inline;
-                }
-            
-                .skills-container > section > ul > li > h6
-                /*,.languages-container > ul > li > h6 */{
-                    padding-right: 10px;
-                    display: inline;
-                }
-            
-                .info-tag-container .info-text {
-                    font-size: 14px !important;
-                }
-            
-                h3 {
-                    font-size: 16px !important;
-                }
-            
-                h4 {
-                    font-size: 14px !important;
-                }
-            
-                h6 {
-                    font-size: 12px !important;
-                }
-            
-                p, li {
-                    font-size: 14px;
-                }
-            
-                .item {
-                    margin-top: 10px;
-                    padding-top: 10px;
-                }
-            }
-            
-            @media print {
-                body {
-                    margin: 0;
-                    background: white;
-                    color: #000;
-                }
-            
-                main {
-                    background: white !important;
-                    color: black !important;
-                }
-            
-                @page {
-                    border-top: 2px solid white;
-                }
-            
-                .page {
-                    color: #000;
-                    width: 100%;
-                    height: 100%;
-                    margin: 0;
-                    padding: 35px 0 35px; /* 35px  35px; */
-                    box-shadow: none;
-                }
-            
-                .title {
-                    background-color: #393e46;
-                    color: white
-                }
-            
-                .keyline {
-                    width: 45px;
-                    /* margin: 8px 0 10px; */
-                    margin: 4px 0 10px;
-                    border-top: 2px solid #FF5701;
-                }
-            
-                .page .resume-header,
-                .page .resume-content {
-                    padding: 0 35px 0 35px;
-                }
-            
-                .container > section {
-                    page-break-inside: avoid;
-                }
-            
-                .left-column {
-                    width: 250px;
-                    margin-right: 35px;
-                }
-            
-                .left-column .container {
-                    page-break-inside: avoid;
-                }
-            
-                .fa-external-link {
-                    display: none;
-                }
-            
-                .gpa {
-                    border: 1px solid #393e46;
-                    margin-left: 10px;
-                }
-            }
-            
-            /* Components */
-            .info-tag-container {
-                margin-bottom: 5px;
-            }
-            
-            .info-tag-container .fa {
-                font-size: 14px;
-                width: 12px;
-                margin-right: 5px;
-                text-align: center;
-                vertical-align: middle;
-            }
-            
-            .info-tag-container .fa.fa-map-marker {
-                font-size: 16px;
-            }
-            
-            .info-tag-container .fa.fa-mobile {
-                font-size: 18px;
-            }
-            
-            .info-tag-container .fa.fa-envelope-o {
-                font-size: 12px;
-            }
-            
-            .info-tag-container .fa.fa-desktop {
-                font-size: 11px;
-            }
-            
-            .info-tag-container .fa.fa-external-link {
-                width: auto;
-                font-size: 8px;
-                margin-left: 2px;
-                vertical-align: text-top;
-                color: #999;
-            }
-            
-            .info-tag-container .info-text {
-                font-size: 11px;
-                display: inline-block;
-                vertical-align: middle;
-                /* width: 139px; */
-            }
-            
-            .references-container .fa {
-                font-size: 14px;
-            }
-        </style>
-    </head>
-    
-    <body>
-        <main id="resume" class="page">
-            <header class="resume-header clearfix">
-                <div class="profile-header">
-                     <h1 class="display-block">Ezequiel Birman</h1>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<title>Ezequiel Birman</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
+	<style>
+		/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
 
-                     <h2 class="display-block">Programmer</h2>
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    background: #393e46;
+    /* background: #f8f8f8; */
+    /* margin: 50px 0 100px; */
+    margin: 0;
+    letter-spacing: .3px;
+    color: #39424B;
+}
 
-                </div>
-                <div class="profile-pic">
-                    <img src="./face.jpg" alt="profile-pic">
-                </div>
-            </header>
-            <div class="resume-content">
-                <aside class="left-column">
-                    <div class="container about-container">
-                        <div class="title">
-                             <h3>About</h3>
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    margin: 0;
+}
 
-                            <div class="keyline"></div>
-                        </div>
-                        <div class="info-tag-container"> <i class="fa fa-map-marker"></i>
+h1 {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 1px; }
 
-                             <h6 class="info-text">Pinzón 461<br/>Buenos Aires C1161ACI</h6>
+h2 {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: .5px; }
 
-                        </div>
-                        <div class="info-tag-container"> <i class="fa fa-envelope"></i>
+h3 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: .4px;
+    padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
 
-                             <h6 class="info-text">ebirman77@gmail.com</h6>
+h3.bold {
+    font-weight: 700; }
 
-                        </div>
-                        <div class="info-tag-container"> <i class="fa fa-mobile-alt"></i>
+h4 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
 
-                             <h6 class="info-text">+549 11 36 38 83 12</h6>
+h4.bold {
+    font-weight: 700; }
 
-                        </div>
-                        <div class="info-tag-container"> <i class="fa fa-linkedin"></i>
+h5 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 11px; }
+h5.italic {
+    font-style: italic; }
 
-                             <h6 class="info-text">
-					                                     <a href="https://linkedin.com/EzequielBirman" target="_blank">
-					                                         EzequielBirman <i class="fa fa-external-link" aria-hidden="true"></i>
-					                                     </a>
-					                                 </h6>
+h6 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 11px; }
 
-                        </div>
-                        <div class="info-tag-container"> <i class="fa fa-github"></i>
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
 
-                             <h6 class="info-text">
+a:hover, a:hover > i.fa-external-link, .info-tag-container a:hover .fa.fa-external-link {
+    color: #2895F1;
+}
+
+a .fa-external-link {
+    font-size: 8px;
+    margin-left: 2px;
+    vertical-align: text-top;
+    color: #999;
+}
+
+p, li {
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: .4px;
+}
+
+blockquote {
+    font-size: 11px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 10px 25px; }
+
+em {
+    color: #999;
+}
+
+ul {
+    margin: 10px 0 0;
+    -webkit-padding-start: 25px;
+}
+
+ul li {
+    padding-left: 10px;
+}
+
+ul.minimal {
+    list-style: none;
+    padding: 0;
+}
+
+ul.minimal li {
+    margin-bottom: 3px;
+    padding-left: 0;
+}
+
+ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    -moz-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: 28px;
+    column-gap: 28px;
+}
+
+ul.two-column li {
+    padding-left: 0;
+    padding-bottom: 5px;
+}
+
+@page {
+    size: A4;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.keyline {
+    width: 45px;
+    /* margin: 8px 0 10px; */
+    margin: 4px 0 10px;
+    border-top: 1px solid #FF5701;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*
+.profile-header {
+    width: auto;
+    max-width:  300px;
+    margin-right: 50px;
+}
+*/
+
+/*
+.profile-pic {
+    width: auto;
+    max-width: 800px;
+    margin-right: auto;
+    /* margin-top: -5px; */
+    /* margin-right: 18px; *//*
+}
+*/
+
+.profile-pic img {
+    height: 150px;
+    width: 120px;
+    border-radius: 10%;
+    padding: 2px;
+    border: 2px solid #FF5701;
+    object-fit: scale-down;
+    background: white;
+    float: right;
+}
+
+.summary {
+    margin: 5px 0 5px; }
+
+/* Layouts */
+.page {
+    background: #222831;
+    color: #eeeeee;
+    /* width: 612px; */
+    min-height: 792px;
+    display: block;
+    margin: 0 auto;
+    border-top: 10px solid #FF5701;
+    /* padding: 36px 22px 30px 34px; */
+    padding: 50px; /* 50px calc(50px + 10%);*/
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.page:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-column, .profile-header {
+    float: left;
+    /* width: 160px; */
+    width: 300px;
+    /* margin-right: 20px; */
+    margin-right: 50px;
+    word-wrap: break-word;
+}
+
+.right-column, .profile-pic {
+    width: auto;
+    overflow: hidden;
+    max-width: 850px;
+    /* margin-right: 50px; */
+    margin: 0 auto;
+}
+
+.item {
+    /* margin-bottom: 15px; */
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #393e46;
+}
+
+.item:first-child, .title + .item {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+}
+
+.title {
+    background-color: #393e46;
+}
+
+.title > i {
+    float: left;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.right-column > .container > .title {
+    margin-bottom: 15px;
+}
+
+.gpa {
+    border: 1px solid white;
+    border-radius: 35%;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .page {
+        padding: 35px;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+        margin: 0;
+    }
+
+    .skills-container > section > ul > li
+    /*,.languages-container > ul > li */{
+        display: inline;
+    }
+
+    .skills-container > section > ul > li > h6
+    /*,.languages-container > ul > li > h6 */{
+        padding-right: 10px;
+        display: inline;
+    }
+
+    .info-tag-container .info-text {
+        font-size: 14px !important;
+    }
+
+    h3 {
+        font-size: 16px !important;
+    }
+
+    h4 {
+        font-size: 14px !important;
+    }
+
+    h6 {
+        font-size: 12px !important;
+    }
+
+    p, li {
+        font-size: 14px;
+    }
+
+    .item {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+}
+
+@media print {
+    body {
+        margin: 0;
+        background: white;
+        color: #000;
+    }
+
+    main {
+        background: white !important;
+        color: black !important;
+    }
+
+    @page {
+        border-top: 2px solid white;
+    }
+
+    .page {
+        color: #000;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 35px 0 35px; /* 35px  35px; */
+        box-shadow: none;
+    }
+
+    .title {
+        background-color: #393e46;
+        color: white
+    }
+
+    .keyline {
+        width: 45px;
+        /* margin: 8px 0 10px; */
+        margin: 4px 0 10px;
+        border-top: 2px solid #FF5701;
+    }
+
+    .page .resume-header,
+    .page .resume-content {
+        padding: 0 35px 0 35px;
+    }
+
+    .container > section {
+        page-break-inside: avoid;
+    }
+
+    .left-column {
+        width: 250px;
+        margin-right: 35px;
+    }
+
+    .left-column .container {
+        page-break-inside: avoid;
+    }
+
+    .fa-external-link {
+        display: none;
+    }
+
+    .gpa {
+        border: 1px solid #393e46;
+        margin-left: 10px;
+    }
+}
+
+/* Components */
+.info-tag-container {
+    margin-bottom: 5px;
+}
+
+.info-tag-container .fa {
+    font-size: 14px;
+    width: 12px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.info-tag-container .fa.fa-map-marker {
+    font-size: 16px;
+}
+
+.info-tag-container .fa.fa-mobile {
+    font-size: 18px;
+}
+
+.info-tag-container .fa.fa-envelope-o {
+    font-size: 12px;
+}
+
+.info-tag-container .fa.fa-desktop {
+    font-size: 11px;
+}
+
+.info-tag-container .fa.fa-external-link {
+    width: auto;
+    font-size: 8px;
+    margin-left: 2px;
+    vertical-align: text-top;
+    color: #999;
+}
+
+.info-tag-container .info-text {
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: middle;
+    /* width: 139px; */
+}
+
+.references-container .fa {
+    font-size: 14px;
+}
+
+	</style>
+	</head>
+	<body>
+		<main id="resume" class="page">
+			<header class="resume-header clearfix">
+			    <div class="profile-header">
+			        <h1 class="display-block">Ezequiel Birman</h1>
+			        <h2 class="display-block">Programmer</h2>
+			    </div>
+			    <div class="profile-pic">
+			        <img src="data:image/jpeg;base64,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&#x3D;" alt="profile-pic">
+			    </div>
+			</header>
+			<div class="resume-content">
+				<aside class="left-column">
+					<div class="container about-container">
+					    <div class="title">
+					        <h3>About</h3>
+					        <div class="keyline"></div>
+					    </div>
+					
+					        <div class="info-tag-container">
+					                    <i class="fa fa-map-marker"></i>
+					        
+					                <h6 class="info-text">Pinzón 461<br/>Buenos Aires C1161ACI</h6>
+					        </div>
+					
+					        <div class="info-tag-container">
+					                    <i class="fa fa-envelope"></i>
+					        
+					                <h6 class="info-text">ebirman77@gmail.com</h6>
+					        </div>
+					
+					        <div class="info-tag-container">
+					                    <i class="fa fa-mobile-alt"></i>
+					        
+					                <h6 class="info-text">+549 11 36 38 83 12</h6>
+					        </div>
+					
+					
+					                        <div class="info-tag-container">
+					                                    <i class="fa fa-linkedin-square"></i>
+					                        
+					                                <h6 class="info-text">
+					                                    <a href="https://linkedin.com/in/EzequielBirman" target="_blank">
+					                                        in/EzequielBirman <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                    </a>
+					                                </h6>
+					                        </div>
+					                         <div class="info-tag-container">
+					                                     <i class="fab fa-github"></i>
+					                         
+					                                 <h6 class="info-text">
 					                                     <a href="https://github.com/stormwatch" target="_blank">
 					                                         stormwatch <i class="fa fa-external-link" aria-hidden="true"></i>
 					                                     </a>
 					                                 </h6>
-
-                        </div>
-                    </div>
-                    <div class="skills-container">
-                        <section class="container">
-                            <div class="title">
-                                 <h3>Web Development</h3>
-
-                                <div class="keyline"></div>
-                            </div>
-                             <h4 class="bold">Beginner</h4>
-
-                            <ul class="minimal">
-                                <li>
-                                    <h6>HTML</h6>
-                                </li>
-                                <li>
-                                    <h6>CSS</h6>
-                                </li>
-                                <li>
-                                    <h6>Javascript</h6>
-                                </li>
-                            </ul>
-                        </section>
-                        <section class="container">
-                            <div class="title">
-                                 <h3>RDBMS</h3>
-
-                                <div class="keyline"></div>
-                            </div>
-                             <h4 class="bold">Beginner</h4>
-
-                            <ul class="minimal">
-                                <li>
-                                    <h6>PostgreSQL</h6>
-                                </li>
-                                <li>
-                                    <h6>MySQL</h6>
-                                </li>
-                            </ul>
-                        </section>
-                        <section class="container">
-                            <div class="title">
-                                 <h3>Other programming languages</h3>
-
-                                <div class="keyline"></div>
-                            </div>
-                             <h4 class="bold">Beginner</h4>
-
-                            <ul class="minimal">
-                                <li>
-                                    <h6>Common Lisp</h6>
-                                </li>
-                                <li>
-                                    <h6>Scheme</h6>
-                                </li>
-                                <li>
-                                    <h6>Python</h6>
-                                </li>
-                                <li>
-                                    <h6>C</h6>
-                                </li>
-                            </ul>
-                        </section>
-                        <section class="container">
-                            <div class="title">
-                                 <h3>Version Control</h3>
-
-                                <div class="keyline"></div>
-                            </div>
-                             <h4 class="bold">Beginner</h4>
-
-                            <ul class="minimal">
-                                <li>
-                                    <h6>Git</h6>
-                                </li>
-                                <li>
-                                    <h6>Bzr</h6>
-                                </li>
-                            </ul>
-                        </section>
-                        <section class="container">
-                            <div class="title">
-                                 <h3>Dependency management</h3>
-
-                                <div class="keyline"></div>
-                            </div>
-                             <h4 class="bold">Beginner</h4>
-
-                            <ul class="minimal">
-                                <li>
-                                    <h6>npm</h6>
-                                </li>
-                                <li>
-                                    <h6>yarn</h6>
-                                </li>
-                                <li>
-                                    <h6>Gulp</h6>
-                                </li>
-                                <li>
-                                    <h6>Grunt</h6>
-                                </li>
-                                <li>
-                                    <h6>Autotools</h6>
-                                </li>
-                            </ul>
-                        </section>
-                        <section class="container">
-                            <div class="title">
-                                 <h3>Linux Systems Administration</h3>
-
-                                <div class="keyline"></div>
-                            </div>
-                             <h4 class="bold">Intermediate</h4>
-
-                            <ul class="minimal">
-                                <li>
-                                    <h6>scripting</h6>
-                                </li>
-                                <li>
-                                    <h6>configuration</h6>
-                                </li>
-                                <li>
-                                    <h6>deployment</h6>
-                                </li>
-                            </ul>
-                        </section>
-                        <section class="container">
-                            <div class="title">
-                                 <h3>Networking</h3>
-
-                                <div class="keyline"></div>
-                            </div>
-                             <h4 class="bold">Intermediate</h4>
-
-                            <ul class="minimal">
-                                <li>
-                                    <h6>firewalling</h6>
-                                </li>
-                                <li>
-                                    <h6>traffic monitoring</h6>
-                                </li>
-                                <li>
-                                    <h6>MikroTik</h6>
-                                </li>
-                                <li>
-                                    <h6>RouterOS</h6>
-                                </li>
-                            </ul>
-                        </section>
-                        <section class="container">
-                            <div class="title">
-                                 <h3>Text and music typesetting</h3>
-
-                                <div class="keyline"></div>
-                            </div>
-                             <h4 class="bold">Intermediate</h4>
-
-                            <ul class="minimal">
-                                <li>
-                                    <h6>LaTeX</h6>
-                                </li>
-                                <li>
-                                    <h6>Lilypond</h6>
-                                </li>
-                                <li>
-                                    <h6>Org Mode</h6>
-                                </li>
-                                <li>
-                                    <h6>Pandoc</h6>
-                                </li>
-                            </ul>
-                        </section>
-                    </div>
-                    <div class="container languages-container">
-                        <div class="title">
-                             <h3>Languages</h3>
-
-                            <div class="keyline"></div>
-                        </div>
-                        <ul class="minimal">
-                            <li>
-                                 <h6>Spanish <em class="pull-right ">(Native speaker)</em></h6>
-
-                            </li>
-                            <li>
-                                 <h6>English <em class="pull-right ">(C2, proficient)</em></h6>
-
-                            </li>
-                            <li>
-                                 <h6>German <em class="pull-right ">(B1, intermediate)</em></h6>
-
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="container interests-container">
-                        <div class="title">
-                             <h3>Interests</h3>
-
-                            <div class="keyline"></div>
-                        </div>
-                        <section class="item">
-                             <h4 class="bold">Music</h4>
-
-                            <ul class="minimal">
-                                <li>Composition</li>
-                                <li>Analysis</li>
-                            </ul>
-                        </section>
-                    </div>
-                </aside>
-                <div class="right-column">
-                    <div class="container summary-container">
-                        <div class="title"> <i class="fa fas fa-file-alt"></i>
-
-                             <h3>Summary</h3>
-
-                            <div class="keyline"></div>
-                        </div>
-                        <p class="summary">I know how to Google and read the fine manual. Motivated, passionate,
-                            creative 0.999999999…× Engineer.</p>
-                    </div>
-                    <div class="container work-container">
-                        <div class="title"> <i class="fa fas fa-user-tie"></i>
-
-                             <h3>Experience</h3>
-
-                            <div class="keyline"></div>
-                        </div>
-                        <section class="item">
-                            <div class="section-header clearfix">
-                                 <h3 class="bold pull-left">
+					                         </div>
+					                         <div class="info-tag-container">
+					                                     <i class="fa fa-twitter"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://twitter.com/ezebirman" target="_blank">
+					                                         ezebirman <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div>
+					</div>
+					    <div class="skills-container">
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Web Development</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">Beginner</h4>
+					                    <ul class="minimal">
+					                            <li><h6>HTML</h6></li>
+					                            <li><h6>CSS</h6></li>
+					                            <li><h6>Javascript</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>RDBMS</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">Beginner</h4>
+					                    <ul class="minimal">
+					                            <li><h6>PostgreSQL</h6></li>
+					                            <li><h6>MySQL</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Other programming languages</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">Beginner</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Common Lisp</h6></li>
+					                            <li><h6>Scheme</h6></li>
+					                            <li><h6>Python</h6></li>
+					                            <li><h6>C</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Version Control</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">Beginner</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Git</h6></li>
+					                            <li><h6>Bzr</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Dependency management</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">Beginner</h4>
+					                    <ul class="minimal">
+					                            <li><h6>npm</h6></li>
+					                            <li><h6>yarn</h6></li>
+					                            <li><h6>Gulp</h6></li>
+					                            <li><h6>Grunt</h6></li>
+					                            <li><h6>Autotools</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Linux Systems Administration</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">Intermediate</h4>
+					                    <ul class="minimal">
+					                            <li><h6>scripting</h6></li>
+					                            <li><h6>configuration</h6></li>
+					                            <li><h6>deployment</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Networking</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">Intermediate</h4>
+					                    <ul class="minimal">
+					                            <li><h6>firewalling</h6></li>
+					                            <li><h6>traffic monitoring</h6></li>
+					                            <li><h6>MikroTik</h6></li>
+					                            <li><h6>RouterOS</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Text and music typesetting</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">Intermediate</h4>
+					                    <ul class="minimal">
+					                            <li><h6>LaTeX</h6></li>
+					                            <li><h6>Lilypond</h6></li>
+					                            <li><h6>Org Mode</h6></li>
+					                            <li><h6>Pandoc</h6></li>
+					                    </ul>
+					            </section>
+					    </div>
+					    <div class="container languages-container">
+					        <div class="title">
+					            <h3>Languages</h3>
+					            <div class="keyline"></div>
+					        </div>
+					
+					        <ul class="minimal">
+					                <li>
+					                    <h6>Spanish <em class="pull-right ">(Native speaker)</em></h6>
+					                </li>
+					                <li>
+					                    <h6>English <em class="pull-right ">(C2, proficient)</em></h6>
+					                </li>
+					                <li>
+					                    <h6>German <em class="pull-right ">(B1, intermediate)</em></h6>
+					                </li>
+					        </ul>
+					    </div>
+					    <div class="container interests-container">
+					        <div class="title">
+					            <h3>Interests</h3>
+					            <div class="keyline"></div>
+					        </div>
+					
+					            <section class="item">
+					                    <h4 class="bold">Music</h4>
+					                    <ul class="minimal">
+					                            <li>Composition</li>
+					                            <li>Analysis</li>
+					                    </ul>
+					            </section>
+					    </div>
+				</aside>
+				<div class="right-column">
+					        <div class="container summary-container">
+					            <div class="title">
+					                    <i class="fa fas fa-file-alt"></i>
+					                <h3>Summary</h3>
+					                <div class="keyline"></div>
+					            </div>
+					            <p class="summary">
+					                I know how to Google and read the fine manual. 0.999999999…× Engineer.
+					            </p>
+					        </div>
+					<div class="container work-container">
+					    <div class="title">
+					            <i class="fa fas fa-user-tie"></i>
+					        <h3>Experience</h3>
+					        <div class="keyline"></div>
+					    </div>
+					
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Self-employed
+					                </h3>
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">12/2009</span>
+					                            <span class="endDate"> - Present</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Manager</h4>
+					
+					            <p class="summary">Tech support</p>
+					
+					            <ul>
+					                <li>Networking</li>
+					                <li>Server administration</li>
+					                <li>Technical consultant</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
 					                        <a href="https://fundacionmusicaantiquanova.org" target="_blank">
 					                            Fundación Música AntiquaNova <i class="fa fa-external-link" aria-hidden="true"></i>
 					                        </a>
 					                </h3>
-
-                                 <h5 class="italic pull-right">
+					                <h5 class="italic pull-right">
 					                            <span class="startDate">11/2013</span>
 					                            <span class="endDate"> - Present</span>
 					                </h5>
-
-                            </div>
-                             <h4>Assistant</h4>
-
-                            <p class="summary">AntiquaNova Music Foundation was created to encourage and promote classical
-                                and contemporary music in Argentina in various fields: creation, performance,
-                                training and documentation as well as to promote cultural exchange with
-                                other countries.</p>
-                            <ul>
-                                <li>web design</li>
-                                <li>music copying, typesetting and digital edition</li>
-                                <li>concert program notes and brochure edition</li>
-                                <li>live sound and lighting</li>
-                                <li>communications and mailing</li>
-                            </ul>
-                        </section>
-                        <section class="item">
-                            <div class="section-header clearfix">
-                                 <h3 class="bold pull-left">
-					                        Self-employed
-					                </h3>
-
-                                 <h5 class="italic pull-right">
-					                            <span class="startDate">12/2009</span>
-					                            <span class="endDate"> - Present</span>
-					                </h5>
-
-                            </div>
-                             <h4>Manager</h4>
-
-                            <p class="summary">Tech support</p>
-                            <ul>
-                                <li>Networking</li>
-                                <li>Server administration</li>
-                                <li>Technical consultant</li>
-                            </ul>
-                        </section>
-                    </div>
-                    <div class="container education-container">
-                        <div class="title"> <i class="fa fas fa-user-graduate"></i>
-
-                             <h3>Education</h3>
-
-                            <div class="keyline"></div>
-                        </div>
-                        <section class="item">
-                            <div class="section-header clearfix">
-                                 <h3 class="bold pull-left">
+					            </div>
+					
+					            <h4>Assistant</h4>
+					
+					            <p class="summary">AntiquaNova Music Foundation was created to encourage and promote classical and contemporary music in Argentina in various fields: creation, performance, training and documentation as well as to promote cultural exchange with other countries.</p>
+					
+					            <ul>
+					                <li>web design</li>
+					                <li>music copying, typesetting and digital edition</li>
+					                <li>concert program notes and brochure edition</li>
+					                <li>live sound and lighting</li>
+					                <li>communications and mailing</li>
+					            </ul>
+					        </section>
+					</div>
+					<div class="container education-container">
+					    <div class="title">
+					            <i class="fa fas fa-user-graduate"></i>
+					        <h3>Education</h3>
+					        <div class="keyline"></div>
+					    </div>
+					
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
 					                        UTN
 					                </h3>
-
-                                 <h5 class="italic pull-right">
+					                <h5 class="italic pull-right">
 					                            <span class="startDate">03/2010</span>
 					                            <span class="endDate"> - Present</span>
 					                </h5>
-
-                            </div>
-                             <h4 class="display-inline">Licenciate degree Information Technology</h4>
-
-                        </section>
-                        <section class="item">
-                            <div class="section-header clearfix">
-                                 <h3 class="bold pull-left">
+					            </div>
+					
+					            <h4 class="display-inline">Licenciate degree Information Technology</h4>
+					
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
 					                        UNLP
 					                </h3>
-
-                                 <h5 class="italic pull-right">
+					                <h5 class="italic pull-right">
 					                            <span class="startDate">03/2001</span>
 					                            <span class="endDate"> - 11/2005</span>
 					                </h5>
-
-                            </div>
-                             <h4 class="display-inline">Licenciate degree Music composition</h4>
-
-                        </section>
-                        <section class="item">
-                            <div class="section-header clearfix">
-                                 <h3 class="bold pull-left">
+					            </div>
+					
+					            <h4 class="display-inline">Licenciate degree Music composition</h4>
+					
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
 					                        ORT
 					                </h3>
-
-                                 <h5 class="italic pull-right">
+					                <h5 class="italic pull-right">
 					                            <span class="startDate">03/1990</span>
 					                            <span class="endDate"> - 12/1995</span>
 					                </h5>
-
-                            </div>
-                             <h4 class="display-inline">Technicature Information Technology</h4>
-
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </body>
-
+					            </div>
+					
+					            <h4 class="display-inline">Technicature Information Technology</h4>
+					
+					
+					        </section>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
 </html>
