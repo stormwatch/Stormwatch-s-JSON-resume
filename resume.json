@@ -22,7 +22,12 @@
                 "network": "GitHub",
                 "username": "stormwatch",
                 "url": "https://github.com/stormwatch"
-            }
+            },
+          {
+            "network": "Twitter",
+            "username": "ezebirman",
+            "url": "https://twitter.com/ezebirman"
+          }
         ]
     },
     "work": [
