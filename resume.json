@@ -1,177 +1,184 @@
 {
-    "basics": {
-        "name": "Ezequiel Birman",
-        "label": "Programmer",
-        "picture": "http://www.gravatar.com/avatar/6c3d41bdb3dcffabd1c7d10bec950fbc.jpg?s=100",
-        "email": "ebirman77@gmail.com",
-        "phone": "+549 11 36 38 83 12",
-        "summary": "Looking forward to a job in IT after some time. I know how to Google and read the fine manual. Motivated, passionate, creative 0.999999999…× Engineer.",
-        "location": {
-            "address": "Pinzón 461",
-            "postalCode": "C1161ACI",
-            "city": "Buenos Aires",
-            "countryCode": "AR"
-        },
-        "profiles": [
-            {
-                "network": "LinkedIn",
-                "username": "EzequielBirman",
-                "url": "https://linkedin.com/EzequielBirman"
-            },
-            {
-                "network": "GitHub",
-                "username": "stormwatch",
-                "url": "https://github.com/stormwatch"
-            }
-        ]
+  "basics": {
+    "name": "Ezequiel Birman",
+    "label": "Programmer",
+    "picture": "http://www.gravatar.com/avatar/6c3d41bdb3dcffabd1c7d10bec950fbc.jpg?s=150",
+    "email": "ebirman77@gmail.com",
+    "phone": "+549 11 36 38 83 12",
+    "summary": "I know how to Google and read the fine manual. 0.999999999…× Engineer.",
+    "location": {
+      "address": "Pinzón 461",
+      "postalCode": "C1161ACI",
+      "city": "Buenos Aires",
+      "countryCode": "AR"
+>>>>>>> Stashed changes
     },
-    "work": [
-        {
-            "company": "Self-employed",
-            "position": "Manager",
-            "startDate": "2010-01-01",
-            "summary": "Tech support",
-            "highlights": [
-                "Networking",
-                "Server administration",
-                "Technical consultant"
-            ]
-        },
-        {
-            "company": "Fundación Música AntiquaNova",
-            "position": "Assistant",
-            "website": "https://fundacionmusicaantiquanova.org",
-            "startDate": "2013-12-01",
-            "summary": "AntiquaNova Music Foundation was created to encourage and promote classical and contemporary music in Argentina in various fields: creation, performance, training and documentation as well as to promote cultural exchange with other countries.",
-            "highlights": [
-                "web design",
-                "music copying, typesetting and digital edition",
-                "concert program notes and brochure edition",
-                "live sound and lighting",
-                "communications and mailing"
-            ]
-        }
-    ],
-    "education": [
-        {
-            "institution": "UTN",
-            "area": "Information Technology",
-            "studyType": "Licenciate degree",
-            "startDate": "2010-04-01"
-        },
-        {
-            "institution": "UNLP",
-            "area": "Music composition",
-            "studyType": "Licenciate degree",
-            "startDate": "2001-04-01",
-            "endDate": "2005-12-01"
-        },
-        {
-            "institution": "ORT",
-            "area": "Information Technology",
-            "studyType": "Technicature",
-            "startDate": "1990-04-01",
-            "endDate": "1995-12-12"
-        }
-    ],
-    "skills": [
-        {
-            "name": "Web Development",
-            "level": "Beginner",
-            "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript"
-            ]
-        },
-        {
-            "name": "RDBMS",
-            "level": "Beginner",
-            "keywords": [
-                "PostgreSQL",
-                "MySQL"
-            ]
-        },
-        {
-            "name": "Other programming languages",
-            "level": "Beginner",
-            "keywords": [
-                "Common Lisp",
-                "Scheme",
-                "Python",
-                "C"
-            ]
-        },
-        {
-            "name": "Version Control",
-            "level": "Beginner",
-            "keywords": [
-                "Git",
-                "Bzr"
-            ]
-        },
-        {
-            "name": "Dependency management",
-            "level": "Beginner",
-            "keywords": [
-                "npm",
-                "yarn",
-                "Gulp",
-                "Grunt",
-                "Autotools"
-            ]
-        },
-        {
-            "name": "Linux Systems Administration",
-            "level": "Intermediate",
-            "keywords": [
-                "scripting",
-                "configuration",
-                "deployment"
-            ]
-        },
-        {
-            "name": "Networking",
-            "level": "Intermediate",
-            "keywords": [
-                "firewalling",
-                "traffic monitoring",
-                "MikroTik",
-                "RouterOS"
-            ]
-        },
-        {
-            "name": "Text and music typesetting",
-            "level": "Intermediate",
-            "keywords": [
-                "LaTeX",
-                "Lilypond",
-                "Org Mode",
-                "Pandoc"
-            ]
-        }
-    ],
-    "languages": [
-        {
-            "language": "Spanish",
-            "fluency": "Native speaker"
-        },
-        {
-            "language": "English",
-            "fluency": "C2, proficient"
-        },
-        {
-            "language": "German",
-            "fluency": "B1, intermediate"
-        }
-    ],
-    "interests": [
-        {
-            "name": "Music",
-            "keywords": [
-                "Composition",
-                "Analysis"
-            ]
-        }
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "EzequielBirman",
+        "url": "https://linkedin.com/in/EzequielBirman"
+      },
+      {
+        "network": "GitHub",
+        "username": "stormwatch",
+        "url": "https://github.com/stormwatch"
+      },
+      {
+        "network": "Twitter",
+        "username": "ezebirman",
+        "url": "https://twitter.com/ezebirman"
+      }
     ]
+  },
+  "work": [
+    {
+      "company": "Self-employed",
+      "position": "Manager",
+      "startDate": "2010-01-01",
+      "summary": "Tech support",
+      "highlights": [
+        "Networking",
+        "Server administration",
+        "Technical consultant"
+      ]
+    },
+    {
+      "company": "Fundación Música AntiquaNova",
+      "position": "Assistant",
+      "website": "https://fundacionmusicaantiquanova.org",
+      "startDate": "2013-12-01",
+      "summary": "AntiquaNova Music Foundation was created to encourage and promote classical and contemporary music in Argentina in various fields: creation, performance, training and documentation as well as to promote cultural exchange with other countries.",
+      "highlights": [
+        "web design",
+        "music copying, typesetting and digital edition",
+        "concert program notes and brochure edition",
+        "live sound and lighting",
+        "communications and mailing"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UTN",
+      "area": "Information Technology",
+      "studyType": "Licenciate degree",
+      "startDate": "2010-04-01"
+    },
+    {
+      "institution": "UNLP",
+      "area": "Music composition",
+      "studyType": "Licenciate degree",
+      "startDate": "2001-04-01",
+      "endDate": "2005-12-01"
+    },
+    {
+      "institution": "ORT",
+      "area": "Information Technology",
+      "studyType": "Technicature",
+      "startDate": "1990-04-01",
+      "endDate": "1995-12-12"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Beginner",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Beginner",
+      "keywords": [
+        "PostgreSQL",
+        "MySQL, MariaDB",
+        "MongoDB, Mongoose"
+      ]
+    },
+    {
+      "name": "Programming languages",
+      "level": "Beginner",
+      "keywords": [
+        "Common Lisp, Scheme, Clojure",
+        "Python",
+        "Erlang",
+        "Julia"
+      ]
+    },
+    {
+      "name": "Version Control",
+      "level": "Beginner",
+      "keywords": [
+        "Git",
+        "Bzr"
+      ]
+    },
+    {
+      "name": "Dependency management",
+      "level": "Beginner",
+      "keywords": [
+        "npm",
+        "yarn",
+        "Gulp",
+        "Grunt",
+        "Autotools"
+      ]
+    },
+    {
+      "name": "Linux Systems Administration",
+      "level": "Intermediate",
+      "keywords": [
+        "scripting: bash, zsh, fish",
+        "configuration",
+        "deployment"
+      ]
+    },
+    {
+      "name": "Networking",
+      "level": "Intermediate",
+      "keywords": [
+        "firewalling",
+        "traffic monitoring",
+        "MikroTik",
+        "RouterOS"
+      ]
+    },
+    {
+      "name": "Text and music typesetting",
+      "level": "Intermediate",
+      "keywords": [
+        "LaTeX",
+        "Lilypond",
+        "Org Mode",
+        "Pandoc"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "C2, proficient"
+    },
+    {
+      "language": "German",
+      "fluency": "B1, intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Composition",
+        "Analysis"
+      ]
+    }
+  ]
 }
