@@ -82,6 +82,17 @@
   ],
   "skills": [
     {
+      "name": "Programming languages",
+      "level": "Beginner",
+      "keywords": [
+        "Common Lisp, Scheme, Clojure",
+        "JavaScript",
+        "Python",
+        "Erlang",
+        "Julia"
+      ]
+    },
+    {
       "name": "Web Development",
       "level": "Beginner",
       "keywords": [
@@ -100,32 +111,11 @@
       ]
     },
     {
-      "name": "Programming languages",
-      "level": "Beginner",
-      "keywords": [
-        "Common Lisp, Scheme, Clojure",
-        "Python",
-        "Erlang",
-        "Julia"
-      ]
-    },
-    {
-      "name": "Version Control",
-      "level": "Beginner",
-      "keywords": [
-        "Git",
-        "Bzr"
-      ]
-    },
-    {
       "name": "Dependency management",
       "level": "Beginner",
       "keywords": [
-        "npm",
-        "yarn",
-        "Gulp",
-        "Grunt",
-        "Autotools"
+        "NodeJS: npm, nvm, yarn, Gulp, Grunt",
+        "Autotools: autogen, autoconf, make"
       ]
     },
     {
@@ -143,8 +133,7 @@
       "keywords": [
         "firewalling",
         "traffic monitoring",
-        "MikroTik",
-        "RouterOS"
+        "MikroTik RouterOS"
       ]
     },
     {
