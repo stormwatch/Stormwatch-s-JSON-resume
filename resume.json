@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Ezequiel Birman",
-    "label": "Programmer",
+    "label": "Systems Adminstrator & Programmer",
     "picture": "http://www.gravatar.com/avatar/6c3d41bdb3dcffabd1c7d10bec950fbc.jpg?s=150",
     "email": "ebirman77@gmail.com",
     "phone": "+549 11 36 38 83 12",
-    "summary": "I know how to Google and read the fine manual. 0.999999999…× Engineer.",
+    "summary": "I have got more than ten years of IT experience including oversight of infrastructure, application support, scripting and systems maintenance. Over the years I have acquired great troubleshooting and problem solving skills. I work with Windows and Unix-based systems. I also like to code on my free time in a variety of languages. Last but not least, I know how to Google and read the fine manual",
     "location": {
       "address": "Pinzón 461",
       "postalCode": "C1161ACI",
@@ -46,14 +46,17 @@
       "company": "Fundación Música AntiquaNova",
       "position": "Assistant",
       "website": "https://fundacionmusicaantiquanova.org",
-      "startDate": "2013-12-01",
+      "startDate": "2012-12-01",
       "summary": "AntiquaNova Music Foundation was created to encourage and promote classical and contemporary music in Argentina in various fields: creation, performance, training and documentation as well as to promote cultural exchange with other countries.",
       "highlights": [
-        "web design",
+        "english interpreter and translator",
+        "communications and mailing",
+        "web development",
         "music copying, typesetting and digital edition",
         "concert program notes and brochure edition",
-        "live sound and lighting",
-        "communications and mailing"
+        "stage technician, live sound and lighting",
+        "Concerts and exhibitions: International Biennal of Art and Music Distat Terra (2014, 2018), Tempus Fugit Concert Series (2013-2019), Festival Cage 2012",
+        "South American composers recording project alongside with the WERGO music label, Radio Köln and Ensemble Aventure, Freiburg"
       ]
     }
   ],
@@ -82,42 +85,6 @@
   ],
   "skills": [
     {
-      "name": "Programming languages",
-      "level": "Beginner",
-      "keywords": [
-        "Common Lisp, Scheme, Clojure",
-        "JavaScript",
-        "Python",
-        "Erlang"
-      ]
-    },
-    {
-      "name": "Web Development",
-      "level": "Beginner",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ]
-    },
-    {
-      "name": "Databases",
-      "level": "Beginner",
-      "keywords": [
-        "PostgreSQL",
-        "MySQL, MariaDB",
-        "MongoDB, Mongoose"
-      ]
-    },
-    {
-      "name": "Dependency management",
-      "level": "Beginner",
-      "keywords": [
-        "NodeJS: npm, nvm, yarn, Gulp, Grunt",
-        "Autotools: autogen, autoconf, make"
-      ]
-    },
-    {
       "name": "Linux Systems Administration",
       "level": "Intermediate",
       "keywords": [
@@ -133,6 +100,52 @@
         "firewalling",
         "traffic monitoring",
         "MikroTik RouterOS"
+      ]
+    },
+    {
+      "name": "Containers",
+      "level": "Beginner",
+      "keywords": [
+        "chroot, namespaces, cgroups",
+        "Docker, Dockerfiles, Docker compose",
+        "OCI, Buildah, Podman"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Beginner",
+      "keywords": [
+        "PostgreSQL",
+        "MySQL, MariaDB",
+        "MongoDB, Mongoose"
+      ]
+    },
+    {
+      "name": "Version control, tooling and dependency management",
+      "level": "Beginner",
+      "keywords": [
+        "VCS: git, bzr",
+        "NodeJS: npm, nvm, yarn, Gulp, Grunt",
+        "Autotools: autogen, autoconf, cmake, makefiles, etc."
+      ]
+    },
+    {
+      "name": "Programming languages",
+      "level": "Beginner",
+      "keywords": [
+        "Common Lisp, Scheme, Clojure",
+        "JavaScript, NodeJS",
+        "Python",
+        "Erlang"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Beginner",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
       ]
     },
     {
@@ -158,14 +171,30 @@
     {
       "language": "German",
       "fluency": "B1, intermediate"
+    },
+    {
+      "language": "Italian",
+      "fluency": "A1, beginner"
     }
   ],
   "interests": [
     {
-      "name": "Music",
+      "name": "Science & technology",
       "keywords": [
-        "Composition",
-        "Analysis"
+        "artificial intelligence",
+        "functional programming",
+        "quantum computing",
+        "human-computer interaction",
+        "reproducible research",
+        "data science",
+        "complex systems"
+      ]
+    },
+    {
+      "name": "Art & design",
+      "keywords": [
+        "Music composition",
+        "Music analysis"
       ]
     }
   ]
