@@ -62,6 +62,14 @@
   ],
   "education": [
     {
+      "institution": "Universidad Nacional de Tres de Febrero",
+      "area": "Information Technology",
+      "studyType": "Open course",
+      "startDate": "2021-08-11",
+      "endDate": "2021-11-24",
+      "courses": ["Software Engineering"]
+    },
+    {
       "institution": "UTN",
       "area": "Information Technology",
       "studyType": "Licenciate degree",
@@ -87,20 +95,12 @@
     {
       "name": "Linux Systems Administration",
       "level": "Intermediate",
-      "keywords": [
-        "scripting: bash, zsh, fish",
-        "configuration",
-        "deployment"
-      ]
+      "keywords": ["scripting: bash, zsh, fish", "configuration", "deployment"]
     },
     {
       "name": "Networking",
       "level": "Intermediate",
-      "keywords": [
-        "firewalling",
-        "traffic monitoring",
-        "MikroTik RouterOS"
-      ]
+      "keywords": ["firewalling", "traffic monitoring", "MikroTik RouterOS"]
     },
     {
       "name": "Containers",
@@ -114,11 +114,7 @@
     {
       "name": "Databases",
       "level": "Beginner",
-      "keywords": [
-        "PostgreSQL",
-        "MySQL, MariaDB",
-        "MongoDB, Mongoose"
-      ]
+      "keywords": ["PostgreSQL", "MySQL, MariaDB", "MongoDB, Mongoose"]
     },
     {
       "name": "Version control, tooling and dependency management",
@@ -142,21 +138,12 @@
     {
       "name": "Web Development",
       "level": "Beginner",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ]
+      "keywords": ["HTML", "CSS", "Javascript"]
     },
     {
       "name": "Text and music typesetting",
       "level": "Intermediate",
-      "keywords": [
-        "LaTeX",
-        "Lilypond",
-        "Org Mode",
-        "Pandoc"
-      ]
+      "keywords": ["LaTeX", "Lilypond", "Org Mode", "Pandoc"]
     }
   ],
   "languages": [
@@ -192,10 +179,7 @@
     },
     {
       "name": "Art & design",
-      "keywords": [
-        "Music composition",
-        "Music analysis"
-      ]
+      "keywords": ["Music composition", "Music analysis"]
     }
   ]
 }
