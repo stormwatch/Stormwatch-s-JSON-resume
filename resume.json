@@ -55,7 +55,7 @@
         "music copying, typesetting and digital edition",
         "concert program notes and brochure edition",
         "stage technician, live sound and lighting",
-        "Concerts and exhibitions: International Biennal of Art and Music Distat Terra (2014, 2018), Tempus Fugit Concert Series (2013-2019), Festival Cage 2012",
+        "Concerts and exhibitions: International Biennal of Art and Music Distat Terra (2014, 2016, 2018), Tempus Fugit Concert Series (2013-2019), Festival Cage 2012",
         "South American composers recording project alongside with the WERGO music label, Radio Köln and Ensemble Aventure, Freiburg"
       ]
     }
@@ -67,17 +67,19 @@
       "studyType": "Open course",
       "startDate": "2021-08-11",
       "endDate": "2021-11-24",
-      "courses": ["Software Engineering"]
+      "courses": [
+        "Software Engineering"
+      ]
     },
     {
-      "institution": "UTN",
+      "institution": "Universidad Tecnológica Nacional, Buenos Aires",
       "area": "Information Technology",
       "studyType": "Licenciate degree",
       "startDate": "2010-04-01",
       "endDate": "2013"
     },
     {
-      "institution": "UNLP",
+      "institution": "Universidad Nacional de La Plata",
       "area": "Music composition",
       "studyType": "Licenciate degree",
       "startDate": "2001-04-01",
@@ -95,12 +97,20 @@
     {
       "name": "Linux Systems Administration",
       "level": "Intermediate",
-      "keywords": ["scripting: bash, zsh, fish", "configuration", "deployment"]
+      "keywords": [
+        "scripting: bash, zsh, fish",
+        "configuration",
+        "deployment"
+      ]
     },
     {
       "name": "Networking",
       "level": "Intermediate",
-      "keywords": ["firewalling", "traffic monitoring", "MikroTik RouterOS"]
+      "keywords": [
+        "firewalling",
+        "traffic monitoring",
+        "MikroTik RouterOS"
+      ]
     },
     {
       "name": "Containers",
@@ -114,7 +124,11 @@
     {
       "name": "Databases",
       "level": "Beginner",
-      "keywords": ["PostgreSQL", "MySQL, MariaDB", "MongoDB, Mongoose"]
+      "keywords": [
+        "PostgreSQL",
+        "MySQL, MariaDB",
+        "MongoDB, Mongoose"
+      ]
     },
     {
       "name": "Version control, tooling and dependency management",
@@ -130,21 +144,31 @@
       "level": "Beginner",
       "keywords": [
         "Common Lisp, Scheme, Clojure",
+        "Smalltalk: Pharo, Squeak, Cuis",
         "Ruby",
+        "Erlang",
         "JavaScript, NodeJS",
-        "Python",
-        "Erlang"
+        "Python"
       ]
     },
     {
       "name": "Web Development",
       "level": "Beginner",
-      "keywords": ["HTML", "CSS", "Javascript"]
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
     },
     {
       "name": "Text and music typesetting",
       "level": "Intermediate",
-      "keywords": ["LaTeX", "Lilypond", "Org Mode", "Pandoc"]
+      "keywords": [
+        "LaTeX",
+        "Lilypond",
+        "Org Mode",
+        "Pandoc"
+      ]
     }
   ],
   "languages": [
@@ -169,8 +193,9 @@
     {
       "name": "Science & technology",
       "keywords": [
+        "software design, object-oriented and functional programming",
+        "computing history",
         "artificial intelligence",
-        "functional programming",
         "quantum computing",
         "human-computer interaction",
         "reproducible research",
@@ -180,7 +205,10 @@
     },
     {
       "name": "Art & design",
-      "keywords": ["Music composition", "Music analysis"]
+      "keywords": [
+        "Music composition",
+        "Music analysis"
+      ]
     }
   ]
 }
