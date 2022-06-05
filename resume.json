@@ -1,16 +1,18 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Ezequiel Birman",
-    "label": "Systems Adminstrator & Programmer",
+    "label": "Programmer, Musician, Systems Adminstrator",
     "picture": "http://www.gravatar.com/avatar/6c3d41bdb3dcffabd1c7d10bec950fbc.jpg?s=150",
     "email": "ebirman77@gmail.com",
     "phone": "+549 11 36 38 83 12",
-    "summary": "I have got more than ten years of IT experience including oversight of infrastructure, application support, scripting and systems maintenance. Over the years I have acquired great troubleshooting and problem solving skills. I work with Windows and Unix-based systems. I also like to code on my free time in a variety of languages. Last but not least, I know how to Google and read the fine manual",
+    "summary": "I code in a variety of languages. I have got more than ten years of IT experience including application development, oversight of infrastructure, scripting and systems maintenance. I am well acquainted with current programming, software design and DevOps best practices and I am continuously honing my skills and learning new ones. Over the years I have acquired great troubleshooting and problem solving skills. Last but not least, I know how to Google and read the fine manual",
     "location": {
       "address": "Francisco Álvarez 2127",
       "postalCode": "M5526CQC",
       "city": "Guaymallén",
-      "countryCode": "AR"
+      "countryCode": "AR",
+      "region": "Mendoza"
     },
     "profiles": [
       {
@@ -32,9 +34,23 @@
   },
   "work": [
     {
+      "name": "Globant",
+      "position": "Sysadmin Engineer Ssr. Advanced",
+      "startDate": "2020-10-31",
+    "highlights": [
+      "Assigned to Cloud Shared Services in the role of focal point for multiple clients",
+      "Application and infrastructure support",
+      "Attended Globant's DevOps Academy",
+      "Attended many AWS APN partner courses and webinars"
+    ],
+      "url": "https://www.linkedin.com/company/globant/",
+      "location": "Departamento Guaymallén, Mendoza, Argentina"
+    },
+    {
       "company": "Self-employed",
       "position": "Manager",
       "startDate": "2010-01-01",
+      "endDate": "2020-02-28",
       "summary": "Tech support",
       "highlights": [
         "Networking",
@@ -62,26 +78,69 @@
   ],
   "education": [
     {
+      "institution": "Academia 10 Pines",
+      "area": "Computer Software Engineering",
+      "studyType": "",
+      "startDate": "2021-04-30",
+      "endDate": "2022-06-30",
+      "courses": [
+        "Advanced TDD",
+        "Advanced Software Design with Objects 2",
+        "Building Robust Software with TDD",
+        "Advanced Software Design with Objects 1",
+        "History and Philosophy of Programming Languages"
+      ]
+    },
+    {
       "institution": "Universidad Nacional de Tres de Febrero",
       "area": "Information Technology",
       "studyType": "Open course",
       "startDate": "2021-08-11",
       "endDate": "2021-11-24",
+      "courses": ["Software Engineering"]
+    },
+    {
+      "institution": "Future Learn",
+      "area": "Computer Software Engineering",
+      "studyType": "",
+      "startDate": "2020-07-31",
+      "endDate": "2020-08-31",
+      "score": "",
+      "courses": ["Functional Programming in Erlang by Simon Thompson"]
+    },
+    {
+      "institution": "Frontend Masters",
+      "area": "Computer Software Engineering",
+      "studyType": "Beginner path (complete), Professional path (incomplete)",
+      "startDate": "2019-03-31",
+      "endDate": "2021-09-30",
       "courses": [
-        "Software Engineering"
+        "The Good Parts of JavaScript and the Web by Douglas Crockford",
+        "JavaScript the Good Parts by Douglas Crockford",
+        "Getting Started with JavaScript, v2 by Kyle Simpson",
+        "Complete Intro to Web Development, v2 by Brian Holt",
+        "CSS Grid & Flexbox for Responsive Layouts, v2 by Jen Kramer",
+        "Introduction to Node.js by Scott Moss",
+        "CSS In-Depth, v2 by Estelle Weyl",
+        "Creative Coding with Canvas & WebGL by Matt DesLauriers",
+        "Complete Intro to React by Brian Holt",
+        "JavaScript: From Fundamentals to Functional JS, v2 by Bianca Gandolfo",
+        "JavaScript: The Hard Parts, v2 by Will Sentance",
+        "Introduction to Dev Tools by Jon Kuperman",
+        "Complete Intro to Containers (feat. Docker) by Brian Holt"
       ]
     },
     {
       "institution": "Universidad Tecnológica Nacional, Buenos Aires",
       "area": "Information Technology",
-      "studyType": "Licenciate degree",
+      "studyType": "Licenciate degree (incomplete)",
       "startDate": "2010-04-01",
-      "endDate": "2013"
+      "endDate": "2013-12-01"
     },
     {
       "institution": "Universidad Nacional de La Plata",
       "area": "Music composition",
-      "studyType": "Licenciate degree",
+      "studyType": "Licenciate degree (incomplete)",
       "startDate": "2001-04-01",
       "endDate": "2005-12-01"
     },
@@ -93,24 +152,120 @@
       "endDate": "1995-12-12"
     }
   ],
-  "skills": [
+  "certificates": [
     {
-      "name": "Linux Systems Administration",
-      "level": "Intermediate",
-      "keywords": [
-        "scripting: bash, zsh, fish",
-        "configuration",
-        "deployment"
-      ]
+      "name": "AWS Certified Cloud Practicioner",
+      "issuer": "Amazon Web Services (AWS)",
+      "startDate": "2022-04-28",
+      "url": "https://www.credly.com/badges/039001d5-c920-4eb9-942a-184982e8fe60"
     },
     {
-      "name": "Networking",
+      "name": "edX Verified Certificate for Advanced Topics and Techniques in Agile Software Development",
+      "issuer": "edX",
+      "startDate": "2022-02-28",
+      "url": "https://courses.edx.org/certificates/cc82641dc7cc4a8cb5c0784d818798eb"
+    },
+    {
+      "name": "edX Verified Certificate for Introduction to Agile Software Development: Tools & Techniques",
+      "issuer": "edX",
+      "startDate": "2021-12-31",
+      "url": "https://courses.edx.org/certificates/cda2859a86b341d88a186dcd4b9f93d2"
+    },
+    {
+      "name": "AWS Cloud Practitioner",
+      "issuer": "IT College",
+      "startDate": "2021-07-31",
+      "url": "https://credentials.itcollege.com.ar/9d0912a0-1add-4dcc-a58f-3637f9031266"
+    },
+    {
+      "name": "Become a DevOps Engineer",
+      "issuer": "LinkedIn",
+      "startDate": "2020-12-31",
+      "url": "http://www.linkedin.com/learning/paths/become-a-devops-engineer?trk=flagship-lil_details_certification"
+    },
+    {
+      "name": "Google Cloud Platform Fundamentals: Core Infrastructure",
+      "issuer": "Coursera | Google",
+      "startDate": "2020-12-31",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/T5G6RE75D6Q7"
+    },
+    {
+      "name": "System Administration and IT Infrastructure Services",
+      "issuer": "Coursera | Google",
+      "startDate": "2020-12-31",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/T5G6RE75D6Q7"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Software Design",
+      "level": "Beginner",
+    "keywords": ["TDD", "ATDD", "BDD", "DDD", "metaprogramming", "SaaS"]
+    },
+    {
+      "name": "API Development",
+      "level": "Beginner",
+      "keywords": ["RESTful", "GraphQL"]
+    },
+    {
+      "name": "Databases",
+      "level": "Beginner",
+      "keywords": ["PostgreSQL", "MySQL, MariaDB", "MongoDB"]
+    },
+    {
+      "name": "Software Design Patterns",
+      "level": "Beginner",
+      "keywords": ["Behavioural", "Creational", "Structural"]
+    },
+    {
+      "name": "Software Testing",
       "level": "Intermediate",
-      "keywords": [
-        "firewalling",
-        "traffic monitoring",
-        "MikroTik RouterOS"
-      ]
+      "keywords": ["unit", "functional", "integration"]
+    },
+    {
+      "name": "Object-Oriented programming (OOP)",
+      "level": "Beginner",
+      "keywords": ["classes", "prototypes", "protocols/interfaces", "polymorphism", "meta-model"]
+    },
+    {
+      "name": "Agile methodologies and frameworks",
+      "level": "Intermediate",
+      "keywords": ["Extreme Programming", "Scrum", "pair/mob programming", "user story mapping"]
+    },
+    {
+      "name": "Web Development",
+      "level": "Intermediate",
+      "keywords": ["Frontend", "Backend", "Accesibility", "HTML", "CSS", "Browser dev tools"]
+    },
+    {
+      "name": "Containerization",
+      "level": "Beginner",
+      "keywords": ["Docker", "OCI", "Podman", "Orchestration"]
+    },
+    {
+      "name": "System Administration",
+      "level": "intermediate",
+      "keywords": ["scripting", "security", "backups", "automation", "provisioning", "configuration"]
+    },
+    {
+      "name": "Version Control",
+      "level": "intermediate",
+      "keywords": ["trunk-based development", "Gitflow", "Git", "SVN", "Bzr", "cvs"]
+    },
+    {
+      "name": "Cloud Computing",
+      "level": "",
+      "keywords": ["AWS", "GCP"]
+    },
+    {
+      "name": "Systems Administration",
+      "level": "Intermediate",
+      "keywords": ["scripting: bash, zsh, fish", "configuration", "deployment"]
+    },
+    {
+      "name": "Computer Networking",
+      "level": "Intermediate",
+      "keywords": ["firewalling", "traffic monitoring", "MikroTik RouterOS"]
     },
     {
       "name": "Containers",
@@ -122,53 +277,27 @@
       ]
     },
     {
-      "name": "Databases",
-      "level": "Beginner",
-      "keywords": [
-        "PostgreSQL",
-        "MySQL, MariaDB",
-        "MongoDB, Mongoose"
-      ]
-    },
-    {
-      "name": "Version control, tooling and dependency management",
-      "level": "Beginner",
-      "keywords": [
-        "VCS: git, bzr",
-        "NodeJS: npm, nvm, yarn, Gulp, Grunt",
-        "Autotools: autogen, autoconf, cmake, makefiles, etc."
-      ]
-    },
-    {
       "name": "Programming languages",
-      "level": "Beginner",
       "keywords": [
         "Common Lisp, Scheme, Clojure",
-        "Smalltalk: Pharo, Squeak, Cuis",
+        "Smalltalk",
         "Ruby",
         "Erlang",
-        "JavaScript, NodeJS",
-        "Python"
-      ]
-    },
-    {
-      "name": "Web Development",
-      "level": "Beginner",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "JavaScript",
+        "Python",
+        "C",
+        "C++",
+        "Pascal, Delphi",
+        "COBOL",
+        "Logo",
+        "BASIC",
+        "Visual Basic"
       ]
     },
     {
       "name": "Text and music typesetting",
       "level": "Intermediate",
-      "keywords": [
-        "LaTeX",
-        "Lilypond",
-        "Org Mode",
-        "Pandoc"
-      ]
+      "keywords": ["LaTeX", "Lilypond", "Org Mode", "Pandoc"]
     }
   ],
   "languages": [
@@ -193,7 +322,8 @@
     {
       "name": "Science & technology",
       "keywords": [
-        "software design, object-oriented and functional programming",
+        "software design",
+        "object-oriented and functional programming",
         "computing history",
         "artificial intelligence",
         "quantum computing",
@@ -205,10 +335,7 @@
     },
     {
       "name": "Art & design",
-      "keywords": [
-        "Music composition",
-        "Music analysis"
-      ]
+      "keywords": ["Music composition", "Music analysis"]
     }
   ]
 }
