@@ -37,12 +37,12 @@
       "name": "Globant",
       "position": "Sysadmin Engineer Ssr. Advanced",
       "startDate": "2020-10-31",
-    "highlights": [
-      "Assigned to Cloud Shared Services in the role of focal point for multiple clients",
-      "Application and infrastructure support",
-      "Attended Globant's DevOps Academy",
-      "Attended many AWS APN partner courses and webinars"
-    ],
+      "highlights": [
+        "Assigned to Cloud Shared Services in the role of focal point for multiple clients",
+        "Application and infrastructure support",
+        "Attended Globant's AWS Academy",
+        "Attended Globant's DevOps Academy"
+      ],
       "url": "https://www.linkedin.com/company/globant/",
       "location": "Departamento Guaymallén, Mendoza, Argentina"
     },
@@ -98,6 +98,19 @@
       "startDate": "2021-08-11",
       "endDate": "2021-11-24",
       "courses": ["Software Engineering"]
+    },
+    {
+      "institution": "AWS training and certification",
+      "area": "Information Technology",
+      "studyType": "",
+      "startDate": "2021-08-11",
+      "endDate": "",
+      "courses": [
+        "AWS Partner: Accreditation (Technical)",
+        "AWS Partner: Cloud Economics Accreditation",
+        "AWS Well-Architected",
+        "AWS Cloud Practitioner Essentials"
+      ]
     },
     {
       "institution": "Future Learn",
@@ -200,7 +213,7 @@
     {
       "name": "Software Design",
       "level": "Beginner",
-    "keywords": ["TDD", "ATDD", "BDD", "DDD", "metaprogramming", "SaaS"]
+      "keywords": ["TDD", "ATDD", "BDD", "DDD", "metaprogramming", "SaaS"]
     },
     {
       "name": "API Development",
@@ -225,17 +238,35 @@
     {
       "name": "Object-Oriented programming (OOP)",
       "level": "Beginner",
-      "keywords": ["classes", "prototypes", "protocols/interfaces", "polymorphism", "meta-model"]
+      "keywords": [
+        "classes",
+        "prototypes",
+        "protocols/interfaces",
+        "polymorphism",
+        "meta-model"
+      ]
     },
     {
       "name": "Agile methodologies and frameworks",
       "level": "Intermediate",
-      "keywords": ["Extreme Programming", "Scrum", "pair/mob programming", "user story mapping"]
+      "keywords": [
+        "Extreme Programming",
+        "Scrum",
+        "pair/mob programming",
+        "user story mapping"
+      ]
     },
     {
       "name": "Web Development",
       "level": "Intermediate",
-      "keywords": ["Frontend", "Backend", "Accesibility", "HTML", "CSS", "Browser dev tools"]
+      "keywords": [
+        "Frontend",
+        "Backend",
+        "Accesibility",
+        "HTML",
+        "CSS",
+        "Browser dev tools"
+      ]
     },
     {
       "name": "Containerization",
@@ -245,12 +276,26 @@
     {
       "name": "System Administration",
       "level": "intermediate",
-      "keywords": ["scripting", "security", "backups", "automation", "provisioning", "configuration"]
+      "keywords": [
+        "scripting",
+        "security",
+        "backups",
+        "automation",
+        "provisioning",
+        "configuration"
+      ]
     },
     {
       "name": "Version Control",
       "level": "intermediate",
-      "keywords": ["trunk-based development", "Gitflow", "Git", "SVN", "Bzr", "cvs"]
+      "keywords": [
+        "trunk-based development",
+        "Gitflow",
+        "Git",
+        "SVN",
+        "Bzr",
+        "cvs"
+      ]
     },
     {
       "name": "Cloud Computing",
