@@ -3,7 +3,7 @@
   "basics": {
     "name": "Ezequiel Birman",
     "label": "Programmer, Musician, Systems Adminstrator",
-    "picture": "http://www.gravatar.com/avatar/6c3d41bdb3dcffabd1c7d10bec950fbc.jpg?s=150",
+    "image": "http://www.gravatar.com/avatar/6c3d41bdb3dcffabd1c7d10bec950fbc.jpg?s=150",
     "email": "ebirman77@gmail.com",
     "phone": "+549 11 36 38 83 12",
     "summary": "I code in a variety of languages. I have got more than ten years of IT experience including application development, oversight of infrastructure, scripting and systems maintenance. I am well acquainted with current programming, software design and DevOps best practices and I am continuously honing my skills and learning new ones. Over the years I have acquired great troubleshooting and problem solving skills. Last but not least, I know how to Google and read the fine manual",
@@ -79,32 +79,45 @@
   "education": [
     {
       "institution": "Academia 10 Pines",
-      "area": "Computer Software Engineering",
-      "studyType": "",
+      "area": "Information Technology",
+      "studyType": "online courses",
       "startDate": "2021-04-30",
       "endDate": "2022-06-30",
       "courses": [
-        "Advanced TDD",
-        "Advanced Software Design with Objects 2",
-        "Building Robust Software with TDD",
-        "Advanced Software Design with Objects 1",
-        "History and Philosophy of Programming Languages"
+        "Advanced TDD by Prof. Hernán Wilkinson",
+        "Advanced Software Design with Objects 2 by Prof. Hernán Wilkinson",
+        "Building Robust Software with TDD by Prof. Máximo Prieto",
+        "Advanced Software Design with Objects 1 by Prof. Máximo Prieto",
+        "History and Philosophy of Programming Languages by Prof. Hernán Wilkinson"
+      ]
+    },
+    {
+      "institution": "edX BerkeleyX",
+      "area": "Information Technology",
+      "studyType": "Professional Certificate in Mastering Agile Development of Software as a Service",
+      "startDate": "2021-08-11",
+      "endDate": "2021-11-24",
+      "courses": [
+        "CS169.1x: Introduction to Agile Software Development: Tools & Techniques by Prof. Armando Fox and Prof. David Patterson",
+        "CS169.2x: Advanced Topics and Techniques in Agile Software Development by Prof. Armando Fox and Prof. David Patterson"
       ]
     },
     {
       "institution": "Universidad Nacional de Tres de Febrero",
       "area": "Information Technology",
-      "studyType": "Open course",
+      "studyType": "open course",
       "startDate": "2021-08-11",
       "endDate": "2021-11-24",
-      "courses": ["Software Engineering"]
+      "courses": [
+        "Software Engineering"
+      ]
     },
     {
       "institution": "AWS training and certification",
       "area": "Information Technology",
-      "studyType": "",
+      "studyType": "online courses",
       "startDate": "2021-08-11",
-      "endDate": "",
+      "endDate": "2022-05-01",
       "courses": [
         "AWS Partner: Accreditation (Technical)",
         "AWS Partner: Cloud Economics Accreditation",
@@ -113,17 +126,18 @@
       ]
     },
     {
-      "institution": "Future Learn",
-      "area": "Computer Software Engineering",
-      "studyType": "",
+      "institution": "The University of Kent via FutureLearn",
+      "area": "Information Technology",
+      "studyType": "MOOC",
       "startDate": "2020-07-31",
       "endDate": "2020-08-31",
-      "score": "",
-      "courses": ["Functional Programming in Erlang by Simon Thompson"]
+      "courses": [
+        "Functional Programming in Erlang by Simon Thompson"
+      ]
     },
     {
       "institution": "Frontend Masters",
-      "area": "Computer Software Engineering",
+      "area": "Information Technology",
       "studyType": "Beginner path (complete), Professional path (incomplete)",
       "startDate": "2019-03-31",
       "endDate": "2021-09-30",
@@ -213,27 +227,49 @@
     {
       "name": "Software Design",
       "level": "Beginner",
-      "keywords": ["TDD", "ATDD", "BDD", "DDD", "metaprogramming", "SaaS"]
+      "keywords": [
+        "TDD",
+        "ATDD",
+        "BDD",
+        "DDD",
+        "metaprogramming",
+        "SaaS"
+      ]
     },
     {
       "name": "API Development",
       "level": "Beginner",
-      "keywords": ["RESTful", "GraphQL"]
+      "keywords": [
+        "RESTful",
+        "GraphQL"
+      ]
     },
     {
       "name": "Databases",
       "level": "Beginner",
-      "keywords": ["PostgreSQL", "MySQL, MariaDB", "MongoDB"]
+      "keywords": [
+        "PostgreSQL",
+        "MySQL, MariaDB",
+        "MongoDB"
+      ]
     },
     {
       "name": "Software Design Patterns",
       "level": "Beginner",
-      "keywords": ["Behavioural", "Creational", "Structural"]
+      "keywords": [
+        "Behavioural",
+        "Creational",
+        "Structural"
+      ]
     },
     {
       "name": "Software Testing",
       "level": "Intermediate",
-      "keywords": ["unit", "functional", "integration"]
+      "keywords": [
+        "unit",
+        "functional",
+        "integration"
+      ]
     },
     {
       "name": "Object-Oriented programming (OOP)",
@@ -269,9 +305,16 @@
       ]
     },
     {
-      "name": "Containerization",
+      "name": "Containerization and Virtualization",
       "level": "Beginner",
-      "keywords": ["Docker", "OCI", "Podman", "Orchestration"]
+      "keywords": [
+        "Docker",
+        "OCI",
+        "Podman",
+        "Orchestration",
+        "Vagrant",
+        "Qemu/KVM"
+      ]
     },
     {
       "name": "System Administration",
@@ -300,17 +343,28 @@
     {
       "name": "Cloud Computing",
       "level": "",
-      "keywords": ["AWS", "GCP"]
+      "keywords": [
+        "AWS",
+        "GCP"
+      ]
     },
     {
       "name": "Systems Administration",
       "level": "Intermediate",
-      "keywords": ["scripting: bash, zsh, fish", "configuration", "deployment"]
+      "keywords": [
+        "scripting: bash, zsh, fish",
+        "configuration",
+        "deployment"
+      ]
     },
     {
       "name": "Computer Networking",
       "level": "Intermediate",
-      "keywords": ["firewalling", "traffic monitoring", "MikroTik RouterOS"]
+      "keywords": [
+        "firewalling",
+        "traffic monitoring",
+        "MikroTik RouterOS"
+      ]
     },
     {
       "name": "Containers",
@@ -342,7 +396,12 @@
     {
       "name": "Text and music typesetting",
       "level": "Intermediate",
-      "keywords": ["LaTeX", "Lilypond", "Org Mode", "Pandoc"]
+      "keywords": [
+        "LaTeX",
+        "Lilypond",
+        "Org Mode",
+        "Pandoc"
+      ]
     }
   ],
   "languages": [
@@ -380,7 +439,10 @@
     },
     {
       "name": "Art & design",
-      "keywords": ["Music composition", "Music analysis"]
+      "keywords": [
+        "Music composition",
+        "Music analysis"
+      ]
     }
   ]
 }
