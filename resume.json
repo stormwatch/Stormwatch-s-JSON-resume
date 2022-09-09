@@ -6,7 +6,7 @@
     "image": "http://www.gravatar.com/avatar/6c3d41bdb3dcffabd1c7d10bec950fbc.jpg?s=150",
     "email": "ebirman77@gmail.com",
     "phone": "+549 11 36 38 83 12",
-    "summary": "I code in a variety of languages. I have got more than ten years of IT experience including application development, oversight of infrastructure, scripting and systems maintenance. I am well acquainted with current programming, software design and DevOps best practices and I am continuously honing my skills and learning new ones. Over the years I have acquired great troubleshooting and problem solving skills. Last but not least, I know how to Google and read the fine manual",
+    "summary": "I have got more than ten years of IT experience including application development, oversight of infrastructure, scripting and systems maintenance. I am well acquainted with current programming, software design and DevOps best practices and I am continuously honing my skills and learning new ones. Over the years I have acquired great troubleshooting and problem solving skills. Last but not least, I know how to Google and read the fine manual",
     "location": {
       "address": "Francisco Álvarez 2127",
       "postalCode": "M5526CQC",
@@ -34,7 +34,7 @@
   },
   "work": [
     {
-      "name": "Globant",
+      "company": "Globant",
       "position": "Sysadmin Engineer Ssr. Advanced",
       "startDate": "2020-10-31",
       "highlights": [
