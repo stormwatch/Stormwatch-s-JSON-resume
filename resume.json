@@ -264,7 +264,7 @@
     },
     {
       "name": "Software Testing",
-      "level": "Intermediate",
+      "level": "Beginner",
       "keywords": [
         "unit",
         "functional",
@@ -342,7 +342,7 @@
     },
     {
       "name": "Cloud Computing",
-      "level": "beginner",
+      "level": "Beginner",
       "keywords": [
         "AWS",
         "Azure",
