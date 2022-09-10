@@ -283,13 +283,15 @@
       ]
     },
     {
-      "name": "Agile methodologies and frameworks",
+      "name": "Agile and Lean methodologies and frameworks",
       "level": "Intermediate",
       "keywords": [
         "Extreme Programming",
         "Scrum",
         "pair/mob programming",
-        "user story mapping"
+        "user story mapping",
+        "Kanban",
+        "Issue tracking: Jira, Trello, Azure DevOps"
       ]
     },
     {
