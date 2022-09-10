@@ -35,6 +35,7 @@
   "work": [
     {
       "company": "Globant",
+      "website": "https://www.globant.com/studio/cloud-ops",
       "position": "Sysadmin Engineer Ssr. Advanced",
       "startDate": "2020-10-31",
       "highlights": [
@@ -79,6 +80,7 @@
   "education": [
     {
       "institution": "Academia 10 Pines",
+      "website": "https://academia.10pines.com/",
       "area": "Information Technology",
       "studyType": "online courses",
       "startDate": "2021-04-30",
@@ -93,6 +95,7 @@
     },
     {
       "institution": "edX BerkeleyX",
+      "website": "https://www.edx.org/professional-certificate/berkeleyx-mastering-agile-development-of-software-as-a-service/",
       "area": "Information Technology",
       "studyType": "Professional Certificate in Mastering Agile Development of Software as a Service",
       "startDate": "2021-08-11",
@@ -104,6 +107,7 @@
     },
     {
       "institution": "Universidad Nacional de Tres de Febrero",
+      "website": "https://blog.nicopaez.com/2021/07/18/experimento-universidad-abierta-2021/",
       "area": "Information Technology",
       "studyType": "open course",
       "startDate": "2021-08-11",
@@ -114,6 +118,7 @@
     },
     {
       "institution": "AWS training and certification",
+      "website": "https://explore.skillbuilder.aws/",
       "area": "Information Technology",
       "studyType": "online courses",
       "startDate": "2021-08-11",
@@ -127,6 +132,7 @@
     },
     {
       "institution": "The University of Kent via FutureLearn",
+      "website": "https://www.futurelearn.com/courses/functional-programming-erlang/",
       "area": "Information Technology",
       "studyType": "MOOC",
       "startDate": "2020-07-31",
@@ -137,6 +143,7 @@
     },
     {
       "institution": "Frontend Masters",
+      "website": "https://frontendmasters.com/",
       "area": "Information Technology",
       "studyType": "Beginner path (complete), Professional path (incomplete)",
       "startDate": "2019-03-31",
@@ -159,6 +166,7 @@
     },
     {
       "institution": "Universidad Tecnológica Nacional, Buenos Aires",
+      "website": "https://www.frba.utn.edu.ar/",
       "area": "Information Technology",
       "studyType": "Licenciate degree (incomplete)",
       "startDate": "2010-04-01",
@@ -166,6 +174,7 @@
     },
     {
       "institution": "Universidad Nacional de La Plata",
+      "website": "https://unlp.edu.ar/",
       "area": "Music composition",
       "studyType": "Licenciate degree (incomplete)",
       "startDate": "2001-04-01",
@@ -173,6 +182,7 @@
     },
     {
       "institution": "ORT",
+      "website": "https://www.ort.edu.ar/",
       "area": "Information Technology",
       "studyType": "Technicature",
       "startDate": "1990-04-01",
