@@ -317,7 +317,7 @@
       ]
     },
     {
-      "name": "System Administration",
+      "name": "Systems Administration",
       "level": "intermediate",
       "keywords": [
         "scripting",
@@ -346,15 +346,6 @@
       "keywords": [
         "AWS",
         "GCP"
-      ]
-    },
-    {
-      "name": "Systems Administration",
-      "level": "Intermediate",
-      "keywords": [
-        "scripting: bash, zsh, fish",
-        "configuration",
-        "deployment"
       ]
     },
     {
