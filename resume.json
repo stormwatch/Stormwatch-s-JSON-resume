@@ -359,15 +359,6 @@
       ]
     },
     {
-      "name": "Containers",
-      "level": "Beginner",
-      "keywords": [
-        "chroot, namespaces, cgroups",
-        "Docker, Dockerfiles, Docker compose",
-        "OCI, Buildah, Podman"
-      ]
-    },
-    {
       "name": "Programming languages",
       "keywords": [
         "Common Lisp, Scheme, Clojure",
