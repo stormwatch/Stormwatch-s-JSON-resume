@@ -112,9 +112,7 @@
       "studyType": "open course",
       "startDate": "2021-08-11",
       "endDate": "2021-11-24",
-      "courses": [
-        "Software Engineering"
-      ]
+      "courses": ["Software Engineering"]
     },
     {
       "institution": "AWS training and certification",
@@ -137,9 +135,7 @@
       "studyType": "MOOC",
       "startDate": "2020-07-31",
       "endDate": "2020-08-31",
-      "courses": [
-        "Functional Programming in Erlang by Simon Thompson"
-      ]
+      "courses": ["Functional Programming in Erlang by Simon Thompson"]
     },
     {
       "institution": "Frontend Masters",
@@ -237,49 +233,27 @@
     {
       "name": "Software Design",
       "level": "Beginner",
-      "keywords": [
-        "TDD",
-        "ATDD",
-        "BDD",
-        "DDD",
-        "metaprogramming",
-        "SaaS"
-      ]
+      "keywords": ["TDD", "ATDD", "BDD", "DDD", "metaprogramming", "SaaS"]
     },
     {
       "name": "API Development",
       "level": "Beginner",
-      "keywords": [
-        "RESTful",
-        "GraphQL"
-      ]
+      "keywords": ["RESTful", "GraphQL"]
     },
     {
       "name": "Databases",
       "level": "Beginner",
-      "keywords": [
-        "PostgreSQL",
-        "MySQL, MariaDB",
-        "MongoDB"
-      ]
+      "keywords": ["PostgreSQL", "MySQL, MariaDB", "MongoDB"]
     },
     {
       "name": "Software Design Patterns",
       "level": "Beginner",
-      "keywords": [
-        "Behavioural",
-        "Creational",
-        "Structural"
-      ]
+      "keywords": ["Behavioural", "Creational", "Structural"]
     },
     {
       "name": "Software Testing",
       "level": "Beginner",
-      "keywords": [
-        "unit",
-        "functional",
-        "integration"
-      ]
+      "keywords": ["unit", "functional", "integration"]
     },
     {
       "name": "Object-Oriented programming (OOP)",
@@ -355,20 +329,12 @@
     {
       "name": "Cloud Computing",
       "level": "Beginner",
-      "keywords": [
-        "AWS",
-        "Azure",
-        "GCP"
-      ]
+      "keywords": ["AWS", "Azure", "GCP"]
     },
     {
       "name": "Computer Networking",
       "level": "Intermediate",
-      "keywords": [
-        "firewalling",
-        "traffic monitoring",
-        "MikroTik RouterOS"
-      ]
+      "keywords": ["firewalling", "traffic monitoring", "MikroTik RouterOS"]
     },
     {
       "name": "Programming languages",
@@ -391,12 +357,7 @@
     {
       "name": "Text and music typesetting",
       "level": "Intermediate",
-      "keywords": [
-        "LaTeX",
-        "Lilypond",
-        "Org Mode",
-        "Pandoc"
-      ]
+      "keywords": ["LaTeX", "Lilypond", "Org Mode", "Pandoc"]
     }
   ],
   "languages": [
@@ -433,10 +394,7 @@
     },
     {
       "name": "Art & design",
-      "keywords": [
-        "Music composition",
-        "Music analysis"
-      ]
+      "keywords": ["Music composition", "Music analysis"]
     }
   ]
 }
