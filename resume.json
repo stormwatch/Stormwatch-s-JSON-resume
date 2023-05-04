@@ -3,9 +3,9 @@
   "basics": {
     "name": "Ezequiel Birman",
     "label": "Full Stack Software Developer",
-    "image": "http://www.gravatar.com/avatar/6c3d41bdb3dcffabd1c7d10bec950fbc.jpg?s=150",
     "email": "ebirman77@gmail.com",
-    "summary": "I have got more than ten years of IT experience including application development, oversight of infrastructure, scripting and systems maintenance. I am well acquainted with current programming, software design and DevOps best practices and I am continuously honing my skills and learning new ones. Over the years I have acquired great troubleshooting and problem solving skills. Last but not least, I know how to Google and read the fine manual",
+    "summary": "I've got more than ten years of IT experience including application development, oversight of infrastructure, scripting and systems maintenance. I am well acquainted with current programming, software design and DevOps best practices and I am continuously honing my skills and learning new ones. Last but not least, I know how to Google and read the fine manual",
+    "location": {},
     "profiles": [
       {
         "network": "LinkedIn",
@@ -16,89 +16,130 @@
         "network": "GitHub",
         "username": "stormwatch",
         "url": "https://github.com/stormwatch"
-      },
-      {
-        "network": "Twitter",
-        "username": "ezebirman",
-        "url": "https://twitter.com/ezebirman"
       }
     ]
   },
   "work": [
     {
-      "company": "Globant",
+      "name": "Globant Software Engineering Studio",
+      "company": "Globant Software Engineering Studio",
+      "location": "Remote for USA client",
+      "description": "IT and Software Development",
+      "position": "Ruby developer",
+      "url": "https://www.globant.com/studio/engineering",
+      "website": "https://www.globant.com/studio/engineering",
+      "startDate": "2022-09-15",
+      "endDate": "2022-10-31",
+      "summary": "The client offers a gamut of services, APIs and widgets to the hotel industry. I Covered for the only dev, a Sr. rubyist during his paternity leave",
+      "highlights": [
+        "Reduced the GCP bill by optimizing the services' configuration",
+        "Debugged and fixed issues in production",
+        "I joined the team after a partial migration from AWS to GCP; I helped reconnecting Tableau to a remnant Redshift DB",
+        "Kept and eye on the infrastructure in both GCP and AWS"
+      ]
+    },
+    {
+      "name": "Globant CloudOps Studio",
+      "company": "Globant CloudOps Studio",
+      "location": "Remote for clients abroad",
+      "description": "IT, Cloud services support, sysadmin, DevSecOps facilitating team",
+      "url": "https://www.globant.com/studio/cloud-ops",
       "website": "https://www.globant.com/studio/cloud-ops",
       "position": "Sysadmin Engineer Ssr. Advanced",
       "startDate": "2020-10-31",
+      "endDate": "2022-09-14",
+      "summary": "Assigned to Cloud Shared Services in the role of focal point for multiple clients",
       "highlights": [
-        "Assigned to Cloud Shared Services in the role of focal point for multiple clients",
+        "Operating on AWS, Azure, and GCP",
+        "Facilitating communications with external, and internal customers and within our teams",
+        "Periodic report generation based on KPIs and SLIs",
+        "Managing Jira and Trello boards for multiple teams",
+        "Writing, edition and translation of technical documentation",
         "Application and infrastructure support",
-        "Attended Globant's AWS Academy",
+        "Attended Globant's AWS Academy and Architecting on AWS",
         "Attended Globant's DevOps Academy"
-      ],
-      "url": "https://www.linkedin.com/company/globant/",
-      "location": "Departamento Guaymallén, Mendoza, Argentina"
+      ]
     },
     {
-      "company": "Self-employed",
-      "position": "Manager",
+      "name": "Los Techies",
+      "company": "Los Techies",
+      "location": "Buenos Aires, Argentina",
+      "description": "IT consultancy. Personal entrepreneurship",
+      "position": "Systems Administrator",
       "startDate": "2010-01-01",
       "endDate": "2020-02-28",
-      "summary": "Tech support",
+      "summary": "Technical support. Self-employed.",
       "highlights": [
-        "Networking",
-        "Server administration",
+        "Network configuration",
+        "On-premise and remote server administration",
         "Technical consultant"
       ]
     },
     {
+      "name": "Fundación Música AntiquaNova",
       "company": "Fundación Música AntiquaNova",
+      "location": "Buenos Aires and Río Negro, Argentina",
+      "description": "AntiquaNova Music Foundation was created to encourage and promote classical and contemporary music in Argentina in various fields: creation, performance, training and documentation as well as to promote cultural exchange with other countries.",
       "position": "Assistant",
+      "url": "https://fundacionmusicaantiquanova.org",
       "website": "https://fundacionmusicaantiquanova.org",
       "startDate": "2012-12-01",
-      "summary": "AntiquaNova Music Foundation was created to encourage and promote classical and contemporary music in Argentina in various fields: creation, performance, training and documentation as well as to promote cultural exchange with other countries.",
+      "summary": "English interpreter and translator. Communications and mailling. Music copying, typesetting and digital edition. Concert program notes and brochure edition. Stage technician, live sound and lighting.",
       "highlights": [
-        "english interpreter and translator",
-        "communications and mailing",
-        "web development",
-        "music copying, typesetting and digital edition",
-        "concert program notes and brochure edition",
-        "stage technician, live sound and lighting",
         "Concerts and exhibitions: International Biennal of Art and Music Distat Terra (2014, 2016, 2018), Tempus Fugit Concert Series (2013-2019), Festival Cage 2012",
-        "South American composers recording project alongside with the WERGO music label, Radio Köln and Ensemble Aventure, Freiburg"
+        "South American composers recording project alongside with the WERGO music label, Radio Köln and Ensemble Aventure, Freiburg. Four CDs produced so far."
       ]
     }
   ],
   "education": [
     {
+      "institution": "Plataforma 5",
+      "url": "https://www.plataforma5.la/",
+      "website": "https://www.plataforma5.la/",
+      "area": "full stack web development coding bootcamp",
+      "studyType": "coding bootcamp",
+      "startDate": "2022-12-01",
+      "endDate": "2023-04-14",
+      "courses": [
+        "Project for customer GlobalNews Group",
+        "Agile software development simulacrum: e-commerce",
+        "Solo week, TMDB clone",
+        "Junior phase workshops. Daily pair programming",
+        "JavaScript Prep"
+      ]
+    },
+    {
       "institution": "Academia 10 Pines",
+      "url": "https://academia.10pines.com/",
       "website": "https://academia.10pines.com/",
       "area": "Information Technology",
       "studyType": "online courses",
       "startDate": "2021-04-30",
       "endDate": "2022-06-30",
       "courses": [
-        "Advanced TDD by Prof. Hernán Wilkinson",
-        "Advanced Software Design with Objects 2 by Prof. Hernán Wilkinson",
-        "Building Robust Software with TDD by Prof. Máximo Prieto",
-        "Advanced Software Design with Objects 1 by Prof. Máximo Prieto",
-        "History and Philosophy of Programming Languages by Prof. Hernán Wilkinson"
+        "Advanced TDD",
+        "Advanced Software Design with Objects 2",
+        "Building Robust Software with TDD",
+        "Advanced Software Design with Objects 1",
+        "History and Philosophy of Programming Languages"
       ]
     },
     {
       "institution": "edX BerkeleyX",
+      "url": "https://www.edx.org/professional-certificate/berkeleyx-mastering-agile-development-of-software-as-a-service/",
       "website": "https://www.edx.org/professional-certificate/berkeleyx-mastering-agile-development-of-software-as-a-service/",
       "area": "Information Technology",
       "studyType": "Professional Certificate in Mastering Agile Development of Software as a Service",
       "startDate": "2021-08-11",
       "endDate": "2021-11-24",
       "courses": [
-        "CS169.1x: Introduction to Agile Software Development: Tools & Techniques by Prof. Armando Fox and Prof. David Patterson",
-        "CS169.2x: Advanced Topics and Techniques in Agile Software Development by Prof. Armando Fox and Prof. David Patterson"
+        "CS169.1x: Introduction to Agile Software Development: Tools & Techniques",
+        "CS169.2x: Advanced Topics and Techniques in Agile Software Development"
       ]
     },
     {
       "institution": "Universidad Nacional de Tres de Febrero",
+      "url": "https://blog.nicopaez.com/2021/07/18/experimento-universidad-abierta-2021/",
       "website": "https://blog.nicopaez.com/2021/07/18/experimento-universidad-abierta-2021/",
       "area": "Information Technology",
       "studyType": "open course",
@@ -108,6 +149,7 @@
     },
     {
       "institution": "AWS training and certification",
+      "url": "https://explore.skillbuilder.aws/",
       "website": "https://explore.skillbuilder.aws/",
       "area": "Information Technology",
       "studyType": "online courses",
@@ -122,15 +164,19 @@
     },
     {
       "institution": "The University of Kent via FutureLearn",
+      "url": "https://www.futurelearn.com/courses/functional-programming-erlang/",
       "website": "https://www.futurelearn.com/courses/functional-programming-erlang/",
       "area": "Information Technology",
       "studyType": "MOOC",
       "startDate": "2020-07-31",
       "endDate": "2020-08-31",
-      "courses": ["Functional Programming in Erlang by Simon Thompson"]
+      "courses": [
+        "Functional Programming in Erlang"
+      ]
     },
     {
       "institution": "Frontend Masters",
+      "url": "https://frontendmasters.com/",
       "website": "https://frontendmasters.com/",
       "area": "Information Technology",
       "studyType": "Beginner path (complete), Professional path (incomplete)",
@@ -154,6 +200,7 @@
     },
     {
       "institution": "Universidad Tecnológica Nacional, Buenos Aires",
+      "url": "https://www.frba.utn.edu.ar/",
       "website": "https://www.frba.utn.edu.ar/",
       "area": "Information Technology",
       "studyType": "Licenciate degree (incomplete)",
@@ -162,6 +209,7 @@
     },
     {
       "institution": "Universidad Nacional de La Plata",
+      "url": "https://unlp.edu.ar/",
       "website": "https://unlp.edu.ar/",
       "area": "Music composition",
       "studyType": "Licenciate degree (incomplete)",
@@ -170,6 +218,7 @@
     },
     {
       "institution": "ORT",
+      "url": "https://www.ort.edu.ar/",
       "website": "https://www.ort.edu.ar/",
       "area": "Information Technology",
       "studyType": "Technicature",
@@ -181,81 +230,65 @@
     {
       "name": "AWS Certified Cloud Practicioner",
       "issuer": "Amazon Web Services (AWS)",
-      "startDate": "2022-04-28",
-      "url": "https://www.credly.com/badges/039001d5-c920-4eb9-942a-184982e8fe60"
+      "date": "2022-04-28",
+      "url": "https://www.credly.com/badges/039001d5-c920-4eb9-942a-184982e8fe60",
+      "website": "https://www.credly.com/badges/039001d5-c920-4eb9-942a-184982e8fe60"
     },
     {
       "name": "edX Verified Certificate for Advanced Topics and Techniques in Agile Software Development",
       "issuer": "edX",
-      "startDate": "2022-02-28",
-      "url": "https://courses.edx.org/certificates/cc82641dc7cc4a8cb5c0784d818798eb"
+      "date": "2022-02-28",
+      "url": "https://courses.edx.org/certificates/cc82641dc7cc4a8cb5c0784d818798eb",
+      "website": "https://courses.edx.org/certificates/cc82641dc7cc4a8cb5c0784d818798eb"
     },
     {
       "name": "edX Verified Certificate for Introduction to Agile Software Development: Tools & Techniques",
       "issuer": "edX",
-      "startDate": "2021-12-31",
-      "url": "https://courses.edx.org/certificates/cda2859a86b341d88a186dcd4b9f93d2"
+      "date": "2021-12-31",
+      "url": "https://courses.edx.org/certificates/cda2859a86b341d88a186dcd4b9f93d2",
+      "website": "https://courses.edx.org/certificates/cda2859a86b341d88a186dcd4b9f93d2"
     },
     {
       "name": "AWS Cloud Practitioner",
       "issuer": "IT College",
-      "startDate": "2021-07-31",
-      "url": "https://credentials.itcollege.com.ar/9d0912a0-1add-4dcc-a58f-3637f9031266"
+      "date": "2021-07-31",
+      "url": "https://credentials.itcollege.com.ar/9d0912a0-1add-4dcc-a58f-3637f9031266",
+      "website": "https://credentials.itcollege.com.ar/9d0912a0-1add-4dcc-a58f-3637f9031266"
     },
     {
       "name": "Become a DevOps Engineer",
       "issuer": "LinkedIn",
-      "startDate": "2020-12-31",
-      "url": "http://www.linkedin.com/learning/paths/become-a-devops-engineer?trk=flagship-lil_details_certification"
+      "date": "2020-12-31",
+      "url": "http://www.linkedin.com/learning/paths/become-a-devops-engineer?trk=flagship-lil_details_certification",
+      "website": "http://www.linkedin.com/learning/paths/become-a-devops-engineer?trk=flagship-lil_details_certification"
     },
     {
       "name": "Google Cloud Platform Fundamentals: Core Infrastructure",
       "issuer": "Coursera | Google",
-      "startDate": "2020-12-31",
-      "url": "https://www.coursera.org/account/accomplishments/certificate/T5G6RE75D6Q7"
+      "date": "2020-12-31",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/T5G6RE75D6Q7",
+      "website": "https://www.coursera.org/account/accomplishments/certificate/T5G6RE75D6Q7"
     },
     {
       "name": "System Administration and IT Infrastructure Services",
       "issuer": "Coursera | Google",
-      "startDate": "2020-12-31",
-      "url": "https://www.coursera.org/account/accomplishments/certificate/T5G6RE75D6Q7"
+      "date": "2020-12-31",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/T5G6RE75D6Q7",
+      "website": "https://www.coursera.org/account/accomplishments/certificate/T5G6RE75D6Q7"
     }
   ],
   "skills": [
     {
       "name": "Software Design",
       "level": "Beginner",
-      "keywords": ["TDD", "ATDD", "BDD", "DDD", "metaprogramming", "SaaS"]
-    },
-    {
-      "name": "API Development",
-      "level": "Beginner",
-      "keywords": ["RESTful", "GraphQL"]
-    },
-    {
-      "name": "Databases",
-      "level": "Beginner",
-      "keywords": ["PostgreSQL", "MySQL, MariaDB", "MongoDB"]
-    },
-    {
-      "name": "Software Design Patterns",
-      "level": "Beginner",
-      "keywords": ["Behavioural", "Creational", "Structural"]
-    },
-    {
-      "name": "Software Testing",
-      "level": "Beginner",
-      "keywords": ["unit", "functional", "integration"]
-    },
-    {
-      "name": "Object-Oriented programming (OOP)",
-      "level": "Beginner",
       "keywords": [
-        "classes",
-        "prototypes",
-        "protocols/interfaces",
-        "polymorphism",
-        "meta-model"
+        "TDD",
+        "BDD",
+        "ATDD",
+        "DDD",
+        "Hexagonal arch.",
+        "Design Patterns",
+        "Object-Oriented Programming"
       ]
     },
     {
@@ -264,11 +297,28 @@
       "keywords": [
         "Extreme Programming",
         "Scrum",
-        "pair/mob programming",
+        "pair & mob programming",
         "user story mapping",
         "Kanban",
-        "Issue tracking: Jira, Trello, Azure DevOps"
+        "Jira",
+        "Trello",
+        "Azure DevOps"
       ]
+    },
+    {
+      "name": "Rest API Development",
+      "level": "Beginner",
+      "keywords": ["Supertest", "Podman", "Swagger"]
+    },
+    {
+      "name": "Databases",
+      "level": "Beginner",
+      "keywords": ["PostgreSQL", "MySQL, MariaDB", "MongoDB"]
+    },
+    {
+      "name": "Software Testing",
+      "level": "Beginner",
+      "keywords": ["unit", "functional", "integration"]
     },
     {
       "name": "Web Development",
@@ -276,7 +326,7 @@
       "keywords": [
         "Frontend",
         "Backend",
-        "Accesibility",
+        "Accessibility",
         "HTML",
         "CSS",
         "Browser dev tools"
@@ -331,7 +381,9 @@
     {
       "name": "Programming languages",
       "keywords": [
-        "Common Lisp, Scheme, Clojure",
+        "Common Lisp",
+        "Scheme",
+        "Clojure",
         "Smalltalk",
         "Ruby",
         "Erlang",
@@ -355,11 +407,11 @@
   "languages": [
     {
       "language": "Spanish",
-      "fluency": "Native speaker"
+      "fluency": "native speaker"
     },
     {
       "language": "English",
-      "fluency": "C2, proficient"
+      "fluency": "C2, master"
     },
     {
       "language": "German",
@@ -375,13 +427,17 @@
       "name": "Science & technology",
       "keywords": [
         "software design",
-        "object-oriented and functional programming",
-        "artificial and synthetic intelligence, machine augmented intelligence, cybernetics",
-        "the Dynabook, explorable explanations, reproducible research",
+        "synthetic and artificial intelligence",
+        "machine augmented intelligence",
+        "cybernetics",
+        "the Dynabook",
+        "explorable explanations",
+        "reproducible research",
         "human-computer interaction",
         "synthetic and computational biology",
         "computing history",
-        "mathematics, complex systems"
+        "mathematics",
+        "complex systems"
       ]
     },
     {
